@@ -1,4 +1,4 @@
-#  DevFest Nordeste 2017
+#  GDG DevFest Nordeste 2017
 
 ![Devfest image](devfest.png)
 
