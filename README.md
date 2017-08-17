@@ -1,5 +1,3 @@
-#  GDG DevFest Nordeste 2017
-
 ![Devfest image](devfest.png)
 
 ## Setup
