@@ -26,8 +26,8 @@
   }
 </script>
 
-<style>
-  .menu .nav a{
-    color: #fff;
-  }
+<style lang="stylus" scoped>
+  .menu .nav a
+    color: #fff
+
 </style>

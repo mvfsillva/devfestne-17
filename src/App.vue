@@ -12,8 +12,8 @@
   }
 </script>
 
-<style>
-  body {
-    background: #000000;
-  }
+<style lang="stylus">
+  body
+    background: #000000
+
 </style>

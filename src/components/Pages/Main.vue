@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import MenuNav from '../Template/Menu'
+  import MenuNav from '../Template/MenuNav'
   import Principal from './Principal'
 
   export default {
