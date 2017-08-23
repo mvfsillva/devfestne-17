@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <menu-nav></menu-nav>
-    <principal></principal>
+    <main-header></main-header>
   </div>
 </template>
 
 <script>
   import MenuNav from '../Template/MenuNav'
-  import Principal from './Principal'
+  import MainHeader from './MainHeader'
 
   export default {
     data () {
@@ -17,7 +17,7 @@
     },
     components: {
       MenuNav,
-      Principal
+      MainHeader
     }
   }
 </script>
