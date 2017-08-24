@@ -1,5 +1,5 @@
 <template>
-  <div class="menu">
+  <div class="menu-nav">
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <a class="nav-link active" href="#">Home</a>
@@ -27,7 +27,16 @@
 </script>
 
 <style lang="stylus" scoped>
-  .menu .nav a
-    color: #fff
+  $border = solid 2px #fff
+  $padding = 0 4rem
+  $margin = 1rem
+  .menu-nav
+    margin-top $margin
+    border-top $border
+    border-left $border
+    border-right $border
+    .nav
+      a
+        color: #fff
 
 </style>

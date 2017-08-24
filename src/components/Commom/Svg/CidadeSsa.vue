@@ -541,17 +541,17 @@
       </g>
       <line class="st4" x1="417.7" y1="394" x2="499.3" y2="394"/>
       <line class="st3" x1="724.9" y1="402.1" x2="731.8" y2="402.1"/>
-      <g>
+      <g id="ferryAnime" transform="translate(0, 0)">
         <g>
-          <polyline class="st1" points="524.9,451.8 506,424.7 565.4,424.7 571.9,431.8 637.4,431.8 628.1,451.8 				"/>
-          <rect x="542.2" y="411.6" class="st1" width="22.6" height="13.1"/>
-          <rect x="579.4" y="413.1" class="st1" width="26.5" height="18.8"/>
-          <rect x="542.2" y="400.5" class="st1" width="22.6" height="11.1"/>
-          <rect x="519.6" y="411.6" class="st1" width="22.6" height="13.1"/>
-          <line class="st1" x1="592.7" y1="402.8" x2="592.7" y2="413.1"/>
-          <line class="st1" x1="597.4" y1="402" x2="582.8" y2="403.5"/>
+          <polyline class="ferry" points="524.9,451.8 506,424.7 565.4,424.7 571.9,431.8 637.4,431.8 628.1,451.8 				"/>
+          <rect x="542.2" y="411.6" class="ferry" width="22.6" height="13.1"/>
+          <rect x="579.4" y="413.1" class="ferry" width="26.5" height="18.8"/>
+          <rect x="542.2" y="400.5" class="ferry" width="22.6" height="11.1"/>
+          <rect x="519.6" y="411.6" class="ferry" width="22.6" height="13.1"/>
+          <line class="ferry" x1="592.7" y1="402.8" x2="592.7" y2="413.1"/>
+          <line class="ferry" x1="597.4" y1="402" x2="582.8" y2="403.5"/>
         </g>
-        <line class="st1" x1="517.7" y1="441.4" x2="632.9" y2="441.4"/>
+        <line class="ferry" x1="517.7" y1="441.4" x2="632.9" y2="441.4"/>
       </g>
       <g>
         <g>
@@ -981,8 +981,13 @@
         </g>
       </g>
     </g>
-    <text transform="matrix(0 -1 1 0 27.5908 403.7812)"><tspan x="0" y="0" class="st7 st9 st10">#</tspan><tspan x="13.4" y="0" class="st6 st11 st10">vemprabahia</tspan></text>
-  </g>
+      <text transform="matrix(0 -1 1 0 27.5908 403.7812)"><tspan x="0" y="0" class="st7 st9 st10">#</tspan><tspan x="13.4" y="0" class="st6 st11 st10">vemprabahia</tspan></text>
+    </g>
+    <animateMotion
+    xlink:href="#ferryAnime"
+    dur="30s"
+    begin="0s"
+    fill="freeze" />
   </svg>
 </template>
 
@@ -1005,4 +1010,10 @@
   .st9{font-family:'TIMSans-Bold';}
   .st10{font-size:20.4541px;}
   .st11{font-family:'TIMSans-Light';}
+  .ferry{
+    fill:none;
+    stroke: #FDC20F;
+    stroke-width:2;
+    stroke-miterlimit:10;
+  }
 </style>
