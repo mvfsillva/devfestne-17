@@ -3,6 +3,7 @@
     <menu-nav></menu-nav>
     <main-header></main-header>
     <cloud-section></cloud-section>
+    <mini-clouds-section></mini-clouds-section>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
   import MenuNav from '../Template/MenuNav'
   import MainHeader from './MainHeader'
   import CloudSection from '../Template/CloudSection'
+  import MiniCloudsSection from '../Template/MiniCloudsSection'
 
   export default {
     data () {
@@ -20,7 +22,8 @@
     components: {
       MenuNav,
       MainHeader,
-      CloudSection
+      CloudSection,
+      MiniCloudsSection
     }
   }
 </script>
