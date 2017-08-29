@@ -19,13 +19,26 @@
           <p class="text-info text-uppercase">Trilhas</p>
         </div>
       </div>
+      <circle-divisor></circle-divisor>
+      <div class="info-text border border-white">
+        <p class="text-warning">
+          A maior conferência de tecnologia cuidadosamente elaborada
+          para você pela comunidade GDG do Nordeste. Venha para a 1˚
+          capital do Brasil prestigiar tudo sobre Frontend, Backend, Mobile,
+          UI/UX, VR, comidas tipicas, musica e muito mais.
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+  import CircleDivisor from '../Commom/Svg/CircleDivisor'
+
   export default {
-    components: {}
+    components: {
+      CircleDivisor
+    }
   }
 </script>
 
@@ -38,6 +51,9 @@
       .row
         .col
           color: #fff
+      .info-text
+        padding 1rem 5rem
+        border-radius 2rem
 
 
 </style>
