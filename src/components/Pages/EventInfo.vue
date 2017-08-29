@@ -28,6 +28,14 @@
           UI/UX, VR, comidas tipicas, musica e muito mais.
         </p>
       </div>
+      <circle-divisor></circle-divisor>
+      <div class="info-text border border-white">
+        <h1 class="">O que é gdg?</h1>
+        <p class="text-warning">
+          Google Developers Group (GDG) - É uma comunidade global de pessoas interessadas em aprender, utilizar
+          e promover as tecnologias oferecidas pelo Google.
+        </p>
+      </div>
     </div>
   </div>
 </template>
