@@ -4,12 +4,14 @@
     <main-header></main-header>
     <cloud-section></cloud-section>
     <mini-clouds-section></mini-clouds-section>
+    <event-info></event-info>
   </div>
 </template>
 
 <script>
-  import MenuNav from '../Template/MenuNav'
   import MainHeader from './MainHeader'
+  import EventInfo from './EventInfo'
+  import MenuNav from '../Template/MenuNav'
   import CloudSection from '../Template/CloudSection'
   import MiniCloudsSection from '../Template/MiniCloudsSection'
 
@@ -20,8 +22,9 @@
       }
     },
     components: {
-      MenuNav,
       MainHeader,
+      EventInfo,
+      MenuNav,
       CloudSection,
       MiniCloudsSection
     }
