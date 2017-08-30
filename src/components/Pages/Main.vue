@@ -1,10 +1,12 @@
 <template>
   <div class="container">
-    <menu-nav></menu-nav>
-    <main-header></main-header>
-    <cloud-section></cloud-section>
-    <mini-clouds-section></mini-clouds-section>
-    <event-info></event-info>
+    <menu-nav/>
+    <main-header/>
+    <cloud-section/>
+    <mini-clouds-section/>
+    <event-info/>
+    <ticket-block/>
+    <sponsor-logo/>
   </div>
 </template>
 
@@ -14,6 +16,8 @@
   import MenuNav from '../Template/MenuNav'
   import CloudSection from '../Template/CloudSection'
   import MiniCloudsSection from '../Template/MiniCloudsSection'
+  import TicketBlock from './TicketBlock'
+  import SponsorLogo from './SponsorLogo'
 
   export default {
     data () {
@@ -26,7 +30,9 @@
       EventInfo,
       MenuNav,
       CloudSection,
-      MiniCloudsSection
+      MiniCloudsSection,
+      TicketBlock,
+      SponsorLogo
     }
   }
 </script>
