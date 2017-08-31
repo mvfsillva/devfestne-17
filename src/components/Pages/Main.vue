@@ -5,6 +5,7 @@
     <cloud-section/>
     <mini-clouds-section/>
     <event-info/>
+    <view-map />
     <ticket-block/>
     <sponsor-logo/>
   </div>
@@ -18,6 +19,7 @@
   import MiniCloudsSection from '../Template/MiniCloudsSection'
   import TicketBlock from './TicketBlock'
   import SponsorLogo from './SponsorLogo'
+  import ViewMap from './ViewMap'
 
   export default {
     data () {
@@ -28,6 +30,7 @@
     components: {
       MainHeader,
       EventInfo,
+      ViewMap,
       MenuNav,
       CloudSection,
       MiniCloudsSection,
