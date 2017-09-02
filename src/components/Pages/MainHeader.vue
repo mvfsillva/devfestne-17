@@ -1,16 +1,18 @@
 <template>
   <div class="main-header">
-    <CidadeSsa />
+    <!--<CidadeSsa />-->
+    <img :src="svgSalvador" class="svg-salvador" alt="">
   </div>
 </template>
 
 <script>
   import CidadeSsa from '../Commom/Svg/CidadeSsa'
-
+  import SvgSalvador from '../../assets/img/svg/cidade_ssa.svg'
   export default {
     data () {
       return {
-        msg: 'Pagina Principal'
+        msg: 'Pagina Principal',
+        svgSalvador: SvgSalvador
       }
     },
     components: {
@@ -26,4 +28,17 @@
     border-left $border
     border-right $border
     padding: $padding
+    .svg-salvador
+      width 100%
+
+  @media (max-width: 767px) {
+    .main-header {
+      border-left none
+      border-right none
+      padding: 0
+    }
+    .svg-salvador {
+      width 89% !important
+    }
+  }
 </style>

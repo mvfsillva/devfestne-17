@@ -39,4 +39,9 @@
       a
         color: #fff
 
+  @media (max-width: 767px) {
+    .menu-nav {
+      display none
+    }
+  }
 </style>
