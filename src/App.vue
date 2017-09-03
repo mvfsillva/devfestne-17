@@ -13,7 +13,7 @@
 </script>
 
 <style lang="stylus">
+ @import '~style/main'
   body
-    background: #000000
-
+    background $black
 </style>
