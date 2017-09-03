@@ -7,7 +7,8 @@
     <event-info/>
     <view-map />
     <ticket-block/>
-    <sponsor-logo/>
+    <sponsors/>
+    <partners/>
   </div>
 </template>
 
@@ -18,8 +19,9 @@
   import CloudSection from '../Template/CloudSection'
   import MiniCloudsSection from '../Template/MiniCloudsSection'
   import TicketBlock from './TicketBlock'
-  import SponsorLogo from './SponsorLogo'
   import ViewMap from './ViewMap'
+  import Sponsors from './Sponsors'
+  import Partners from './Partners'
 
   export default {
     data () {
@@ -35,7 +37,8 @@
       CloudSection,
       MiniCloudsSection,
       TicketBlock,
-      SponsorLogo
+      Sponsors,
+      Partners
     }
   }
 </script>

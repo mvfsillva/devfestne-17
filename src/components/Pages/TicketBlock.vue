@@ -5,7 +5,7 @@
         <img :src="ticket" alt="Comprar" >
       </a>
 	  	<mini-clouds-section/>
-      <div class="sum">
+      <!-- <div class="sum">
         <img :src="sum" alt="">
       </div>
       <div class="farol-barra">
@@ -13,7 +13,7 @@
       </div>
       <div class="wave-yellow">
         <img :src="wave" alt="">
-      </div>
+      </div> -->
 	  </div>
   </div>
 </template>
