@@ -31,10 +31,6 @@
   $padding = 0 4rem
   $margin = 1rem
   .menu-nav
-    margin-top $margin
-    border-top $border
-    border-left $border
-    border-right $border
     .nav
       a
         color: #fff

@@ -2,6 +2,9 @@
   <div class="main-header">
     <!--<CidadeSsa />-->
     <img :src="svgSalvador" class="svg-salvador" alt="">
+    <div class="vertical">
+      <span>#VemPraSalvador</span>
+    </div>
   </div>
 </template>
 
@@ -25,8 +28,6 @@
   $border = solid 2px #fff
   $padding = 0 4rem
   .main-header
-    border-left $border
-    border-right $border
     padding: $padding
     .svg-salvador
       width 100%

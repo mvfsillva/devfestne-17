@@ -2,24 +2,23 @@
   <div class="event-info text-center">
     <div class="container">
       <div class="row">
-        <div class="col border border-white">
+        <div class="circle">
           <h1 class="display-2">600</h1>
           <p class="text-warning text-uppercase">Participantes</p>
         </div>
-        <div class="col border border-white">
+        <div class="circle">
           <h1 class="display-2">01</h1>
           <p class="text-success text-uppercase">Dias de evento</p>
         </div>
-        <div class="col border border-white">
+        <div class="circle">
           <h1 class="display-2">20</h1>
           <p class="text-danger text-uppercase">Palestras</p>
         </div>
-        <div class="col border border-white">
+        <div class="circle">
           <h1 class="display-2">02</h1>
           <p class="text-info text-uppercase">Trilhas</p>
         </div>
       </div>
-      <circle-divisor></circle-divisor>
       <div class="info-text border border-white">
         <p class="text-warning">
           A maior conferência de tecnologia cuidadosamente elaborada
@@ -28,7 +27,6 @@
           UI/UX, VR, comidas tipicas, musica e muito mais.
         </p>
       </div>
-      <circle-divisor></circle-divisor>
       <div class="info-text border border-white">
         <h1 class="">O que é gdg?</h1>
         <p class="text-warning">
