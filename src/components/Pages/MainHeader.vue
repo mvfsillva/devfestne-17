@@ -1,9 +1,11 @@
 <template>
-  <main class="container main">
-    <div class="content">
-      <img :src="City" alt="salvador" class="city-image img-fluid">
+  <div class="main-header">
+    <!--<CidadeSsa />-->
+    <img :src="svgSalvador" class="svg-salvador" alt="">
+    <div class="vertical">
+      <span>#VemPraSalvador</span>
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -19,14 +21,21 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.main
-  height 100vh
-  display flex
-  display -webkit-box
-  display -webkit-flex
-  display -ms-flexbox
-  align-items center
-  -ms-flex-align center
-  -ms-flex-pack center
-  justify-content center
+  $border = solid 2px #fff
+  $padding = 0 4rem
+  .main-header
+    padding: $padding
+    .svg-salvador
+      width 100%
+
+  @media (max-width: 767px) {
+    .main-header {
+      border-left none
+      border-right none
+      padding: 0
+    }
+    .svg-salvador {
+      width 89% !important
+    }
+  }
 </style>

@@ -2,12 +2,8 @@
   <div>
     <menu-nav/>
     <main-header/>
-    <!-- <cloud-section/> -->
-    <mini-clouds-section/>
-    <statistics-block/>
-    <circle-divisor/>
     <event-info/>
-    
+
     <view-map />
     <ticket-block/>
     <sponsors/>
