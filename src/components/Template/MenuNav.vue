@@ -1,10 +1,9 @@
 <template>
   <nav class="navbar fixed-top menu-nav">
     <div class="container">
-      <div class="left-block"></div>
       <!-- Navigation -->
       <div class="center-block">
-        <ul class="site-navigation nav">
+        <!-- <ul class="site-navigation nav">
           <li>
             <a class="nav-link" href="#">Home</a>
           </li>
@@ -17,10 +16,11 @@
           <li>
             <a class="nav-link" href="#">Link</a>
           </li>
-        </ul>
+        </ul> -->
       </div>
       <!-- Ticket Button -->
       <div class="right-block">
+        <a href="https://loja.tampa.works/produto/devfest-nordeste-2017/"></a>
         <button class="btn-ticket" type="submit">
       		Ingressos
       		<span></span>
@@ -39,13 +39,11 @@
 .menu-nav
   background-color $black
 .container
-  >.left-block
-    width 25%
   >.center-block
-    width 50%
+    width 75%
   >.right-block
     width 25%
-    text-align right
+    text-align center
 
 .site-navigation
   text-align center
@@ -146,39 +144,28 @@
 	 min-width 160px
 	 z-index 1
 	 padding 9px 24px
+   padding-top 3px
 	 font-size 14px
 	 font-weight 700
-	 letter-spacing 3px
+	 letter-spacing 1px
 	 text-transform uppercase
-	 color #fff
+	 color $google-yellow
 	 text-align center
 	 border-radius 4px
 	 overflow hidden
-	 background linear-gradient(to right, #E67207 0%, #EF4E7B 50%, #A166AB 100%)
+	 background linear-gradient(to right, $google-yellow)
 	 transform translate3d(0, 0, 0)
 	 transition all .4s ease-out
 	 &:before
 		 content ""
 		 width calc(100% - 4px)
 		 height calc(100% - 4px)
-		 background  $black
+		 background $black
 		 position absolute
 		 top 2px
 		 left 2px
 		 border-radius 2px
 		 z-index -1
-	 &:after
-		 content ''
-		 position absolute
-		 top 0
-		 left 0
-		 height 100%
-		 width 100%
-		 display block
-		 transition all .4s ease-out
-		 background linear-gradient(to right, #E67207 0%, #EF4E7B 5%, #A166AB 50%)
-		 z-index -3
-		 opacity 0
 	span
 	 position absolute
 	 left 0
@@ -186,18 +173,25 @@
 	 display block
 	 width 200%
 	 height 2px
-	 background linear-gradient(to right, #E67207 10%, #EF4E7B 15%, #A166AB 50%)
+	 background linear-gradient(to right, $google-yellow 0%)
 	 z-index -1
 	 transition all 0.8s ease-out
+
 
 .btn-ticket:active,.btn-ticket:focus,.btn-ticket:hover
   cursor pointer
   transform translate3d(0, -3px, 0)
-  box-shadow 0px 8px 18px -3px rgba(161,102,171,0.3)
+  box-shadow 0px 8px 18px -3px rgba(206, 203, 6, 0.58)
 
 .btn-ticket:active span,.btn-ticket:focus span,.btn-ticket:hover span
   left -10%
 
 .btn-ticket:active:after,.btn-ticket:focus:after,.btn-ticket:hover:after
   opacity 1
+
+@media (max-width: 600px)
+  .btn-ticket
+    font-size 12px
+    min-width 120px
+    margin-left -30px
 </style>
