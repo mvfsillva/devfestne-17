@@ -2,13 +2,13 @@
   <div class="container">
     <menu-nav/>
     <main-header/>
-    <cloud-section/>
-    <mini-clouds-section/>
+    <!-- <cloud-section/> -->
+    <!-- <mini-clouds-section/>
     <event-info/>
     <view-map />
     <ticket-block/>
     <sponsors/>
-    <partners/>
+    <partners/> -->
   </div>
 </template>
 
