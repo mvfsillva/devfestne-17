@@ -13,7 +13,6 @@
 </script>
 
 <style lang="stylus">
- @import '~style/main'
-  body
-    background $black
+  .app
+    background #000
 </style>
