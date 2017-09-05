@@ -20,8 +20,7 @@
       </div>
       <!-- Ticket Button -->
       <div class="right-block">
-        <a href="https://loja.tampa.works/produto/devfest-nordeste-2017/"></a>
-        <button class="btn-ticket" type="submit">
+        <button class="btn-ticket" type="button" @click.prevent="buyTicket">
       		Ingressos
       		<span></span>
       	</button>
@@ -31,7 +30,13 @@
 </template>
 
 <script>
-  export default {}
+  export default {
+    methods: {
+      buyTicket () {
+        window.open('https://loja.tampa.works/produto/devfest-nordeste-2017/', '_blank')
+      }
+    }
+  }
 </script>
 
 <style lang="stylus" scoped>
