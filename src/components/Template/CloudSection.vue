@@ -1,15 +1,17 @@
 <template>
   <div class="cloud-section">
-    <cloud-separator />
+    <img :src="CloudSeparator" alt="salvador" class="img-fluid">
   </div>
 </template>
 
 <script>
-  import CloudSeparator from '../Commom/Svg/CloudSeparator'
+  import CloudSeparator from 'assets/img/svg/nuvem_separadora.svg'
 
   export default {
-    components: {
-      CloudSeparator
+    data () {
+      return {
+        CloudSeparator
+      }
     }
   }
 </script>
@@ -18,7 +20,7 @@
   $border = solid 2px #fff
   $padding = 0 4rem
   .cloud-section
-    border-left $border
-    border-right $border
+    //border-left $border
+    //border-right $border
 
 </style>
