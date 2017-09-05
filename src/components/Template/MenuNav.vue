@@ -21,7 +21,7 @@
       <!-- Ticket Button -->
       <div class="right-block">
         <button class="btn-ticket" type="button" @click.prevent="buyTicket">
-      		Ingressos
+      		Comprar ingresso
       		<span></span>
       	</button>
       </div>
@@ -40,9 +40,8 @@
 </script>
 
 <style lang="stylus" scoped>
-@import '~style/base/variables'
 .menu-nav
-  background-color $black
+  background-color #000
 .container
   >.center-block
     width 75%
@@ -139,64 +138,18 @@
  .site-navigation ul
   max-width:640px
 
+// BUTTON
 .btn-ticket
-	 border none
-	 position relative
-	 display inline-block
-	 vertical-align middle
-	 width auto
-	 height 48px
-	 min-width 160px
-	 z-index 1
-	 padding 9px 24px
-   padding-top 3px
-	 font-size 14px
-	 font-weight 700
-	 letter-spacing 1px
-	 text-transform uppercase
-	 color $google-yellow
-	 text-align center
-	 border-radius 4px
-	 overflow hidden
-	 background linear-gradient(to right, $google-yellow)
-	 transform translate3d(0, 0, 0)
-	 transition all .4s ease-out
-	 &:before
-		 content ""
-		 width calc(100% - 4px)
-		 height calc(100% - 4px)
-		 background $black
-		 position absolute
-		 top 2px
-		 left 2px
-		 border-radius 2px
-		 z-index -1
-	span
-	 position absolute
-	 left 0
-	 bottom 7px
-	 display block
-	 width 200%
-	 height 2px
-	 background linear-gradient(to right, $google-yellow 0%)
-	 z-index -1
-	 transition all 0.8s ease-out
-
-
-.btn-ticket:active,.btn-ticket:focus,.btn-ticket:hover
+  padding 10px 16px
+  border 2px solid #00a158
+  border-radius 2px
+  text-transform uppercase
   cursor pointer
-  transform translate3d(0, -3px, 0)
-  box-shadow 0px 8px 18px -3px rgba(206, 203, 6, 0.58)
-
-.btn-ticket:active span,.btn-ticket:focus span,.btn-ticket:hover span
-  left -10%
-
-.btn-ticket:active:after,.btn-ticket:focus:after,.btn-ticket:hover:after
-  opacity 1
-
-@media (max-width: 600px)
-  .btn-ticket
-    font-size 12px
-    min-width 120px
-    margin-left -30px
+  font-weight 100
+  font-size .8em
+  color #00a158
+  background #000
+  &:hover
+    background #00a158
+    color #fff
 </style>
