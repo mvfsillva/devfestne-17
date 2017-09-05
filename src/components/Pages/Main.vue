@@ -2,9 +2,11 @@
   <div>
     <menu-nav/>
     <main-header/>
-    <cloud-section/>
-   <mini-clouds-section/>
-    <event-info/>
+    <!-- <cloud-section/> -->
+    <mini-clouds-section/>
+    <statistics-block/>
+    <circle-divisor/>
+    <!-- <event-info/> -->
     <view-map />
     <ticket-block/>
     <sponsors/>
@@ -23,6 +25,7 @@
   import ViewMap from './ViewMap'
   import Sponsors from './Sponsors'
   import Partners from './Partners'
+  import CircleDivisor from '../Commom/Svg/CircleDivisor'
 
   export default {
     data () {
@@ -40,7 +43,8 @@
       MiniCloudsSection,
       TicketBlock,
       Sponsors,
-      Partners
+      Partners,
+      CircleDivisor
     }
   }
 </script>
