@@ -13,9 +13,10 @@
 </template>
 
 <script>
-  import MainHeader from './MainHeader'
-  import EventInfo from './EventInfo'
   import MenuNav from '../Template/MenuNav'
+  import MainHeader from './MainHeader'
+  import StatisticsBlock from './StatisticsBlock'
+  import EventInfo from './EventInfo'
   import CloudSection from '../Template/CloudSection'
   import MiniCloudsSection from '../Template/MiniCloudsSection'
   import TicketBlock from './TicketBlock'
@@ -31,6 +32,7 @@
     },
     components: {
       MainHeader,
+      StatisticsBlock,
       EventInfo,
       ViewMap,
       MenuNav,
