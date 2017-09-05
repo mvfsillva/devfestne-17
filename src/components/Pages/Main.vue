@@ -6,7 +6,8 @@
     <mini-clouds-section/>
     <statistics-block/>
     <circle-divisor/>
-    <!-- <event-info/> -->
+    <event-info/>
+    
     <view-map />
     <ticket-block/>
     <sponsors/>
