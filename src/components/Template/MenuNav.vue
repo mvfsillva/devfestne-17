@@ -140,16 +140,17 @@
 
 // BUTTON
 .btn-ticket
+  margin 6px
   padding 10px 16px
-  border 2px solid #00a158
+  border 2px solid #ffc300
   border-radius 2px
   text-transform uppercase
   cursor pointer
-  font-weight 100
+  font-weight 600
   font-size .8em
-  color #00a158
-  background #000
+  color #000
+  background #ffc300
   &:hover
-    background #00a158
-    color #fff
+    background #000
+    color #ffc300
 </style>
