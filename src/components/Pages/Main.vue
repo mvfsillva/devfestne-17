@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <menu-nav/>
     <main-header/>
     <!-- <cloud-section/> -->

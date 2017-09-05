@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main class="container main">
     <div class="content">
       <img :src="City" alt="salvador" class="city-image img-fluid">
     </div>
