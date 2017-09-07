@@ -1,10 +1,9 @@
 <template>
-  <div id="home" class="main-header">
-    <!--<CidadeSsa />-->
+  <div id="home" class="container main-header">
     <img :src="svgSalvador" class="svg-salvador" alt="">
-    <div class="vertical">
+    <!-- <div class="vertical">
       <span>#VemPraSalvador</span>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -21,21 +20,20 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  $border = solid 2px #fff
-  $padding = 0 4rem
   .main-header
-    padding: $padding
+    height 100vh
+    display flex
+    display -webkit-box
+    display -webkit-flex
+    align-items center
     .svg-salvador
       width 100%
 
-  @media (max-width: 767px) {
-    .main-header {
+  @media (max-width: 767px)
+    .main-header
       border-left none
       border-right none
       padding: 0
-    }
-    .svg-salvador {
+    .svg-salvador
       width 89% !important
-    }
-  }
 </style>
