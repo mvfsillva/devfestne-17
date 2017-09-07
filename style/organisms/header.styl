@@ -1,0 +1,37 @@
+// Variable
+.tlt-header
+	font-weight 600
+	font-family Product Sans
+	text-transform uppercase
+	color $google-green
+
+.header
+	text-align center
+	>.header-title
+		@extend .tlt-header
+		font-size 2.2rem
+	>.header-text
+		font-size .9rem
+		font-weight 100
+		color $white
+		.anchor
+			font-style italic
+			text-transform uppercase
+	>.partners-title
+		@extend .tlt-header
+		font-size 1.8rem
+
+.main-header
+	position relative
+	img
+		width 100%
+
+	.vertical
+		color #fff
+		transform rotate(90deg)
+		position absolute
+		top 25vw
+		left 0
+
+		span
+			font-size: 2em

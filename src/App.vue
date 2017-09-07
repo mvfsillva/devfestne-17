@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app">
     <main>
       <router-view></router-view>
     </main>
@@ -11,3 +11,9 @@
     name: 'app'
   }
 </script>
+
+<style lang="stylus">
+ @import '~style/main'
+  body
+    background $black
+</style>
