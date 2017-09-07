@@ -1,5 +1,5 @@
 <template>
-  <div class="main-header">
+  <div id="home" class="main-header">
     <!--<CidadeSsa />-->
     <img :src="svgSalvador" class="svg-salvador" alt="">
     <div class="vertical">

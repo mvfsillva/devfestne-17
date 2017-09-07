@@ -1,32 +1,20 @@
 <template>
-  <nav class="navbar fixed-top menu-nav">
-    <div class="container">
-      <!-- Navigation -->
-      <div class="center-block">
-        <!-- <ul class="site-navigation nav">
-          <li>
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Sobre</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Local</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#">Link</a>
-          </li>
-        </ul> -->
-      </div>
-      <!-- Ticket Button -->
-      <div class="right-block">
-        <button class="btn-ticket" type="button" @click.prevent="buyTicket">
-      		Comprar ingresso
-      		<span></span>
-      	</button>
-      </div>
-    </div>
-  </nav>
+  <div class="menu-nav">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" v-smooth-scroll="{ duration: 2000 }" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#event">O evento</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#where">Onde?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#tickets">Comprar Ingresso</a>
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -47,6 +35,7 @@
     .nav
       a
         color: #fff
+        text-shadow 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
 
   @media (max-width: 767px) {
     .menu-nav {

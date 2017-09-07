@@ -1,5 +1,5 @@
 <template>
-  <div class="ticket-block">
+  <div id="tickets" class="ticket-block">
 		<div class="container">
       <h1>Compre agora seu ingresso!</h1>
       <a href="https://loja.tampa.works/produto/devfest-nordeste-2017/" target="_blank" class="link-ticket">
