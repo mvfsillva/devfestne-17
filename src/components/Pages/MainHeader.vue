@@ -1,9 +1,6 @@
 <template>
   <div id="home" class="container main-header">
     <img :src="svgSalvador" class="svg-salvador" alt="">
-    <!-- <div class="vertical">
-      <span>#VemPraSalvador</span>
-    </div> -->
   </div>
 </template>
 
