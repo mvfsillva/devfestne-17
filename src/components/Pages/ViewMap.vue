@@ -1,17 +1,69 @@
 <template>
-  <div class="view-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5147575251203!2d-38.388600685759016!3d-12.938878990877367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617406c5e77d3%3A0x4ec6a2c9c19397b1!2sCentro+Universit%C3%A1rio+SENAI+CIMATEC!5e0!3m2!1spt-BR!2sbr!4v1504138050724" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div id="where" class="map">
+    <div id="map" class="view-map"></div>
+    <div class="location-info">
+      <img :src="fachadaSenai" class="svg-salvador" alt="">
+      <div class="address">
+        <h1>
+          SENAI CIMATEC - SENAI Bahia - FIEB <br> Centro Universitário SENAI CIMATEC
+        </h1>
+        <p>
+          Av. Orlando Gomes, 1845 - Piatã, Salvador - BA, 41650-010
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import mapsStyle from '../../assets/json/maps-style.json'
+import fachadaSenai from '../../assets/img/fachada_cimatec.jpg'
 export default {
+  mounted () {
+    this.createMap()
+  },
+  data () {
+    return {
+      fachadaSenai: fachadaSenai
+    }
+  },
+  methods: {
+    createMap: function () {
+      let map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: -12.9381642, lng: -38.3861483},
+        zoom: 15,
+        styles: mapsStyle
+      })
+
+      this.marker = new google.maps.Marker({
+        position: {lat: -12.9388791, lng: -38.3864129},
+        map: map
+      })
+    }
+  }
 }
 </script>
 
 <style lang="stylus">
-  .view-map
-    width 100%
-    height 20rem
-    margin-top 5rem
+  .map
+    position relative
+
+    .location-info
+      position absolute
+      width 65vw
+      height 219px
+      background #434444
+      bottom 0
+
+      .address
+        color #fff
+        display inline-block
+        vertical-align top
+        padding 0 20px
+
+    .view-map
+      width 100%
+      height 100vh
+      margin-top 5rem
+
 </style>

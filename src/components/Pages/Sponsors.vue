@@ -1,6 +1,6 @@
 <template>
   <section class="container section-sponsors">
-    <header class="header">
+    <div class="header">
       <h1 class="header-title">Patrocinadores</h1>
       <p class="header-text">
         Quem torna o DevFest Nordeste possível são as empresas que apoiam, investem e acreditam nesse projeto.
@@ -8,38 +8,20 @@
         Quer fazer parte dessa iniciativa?
         <a class="anchor" href="https://goo.gl/wMnezP" target="_blank">Seja um patrocinador!</a>
       </p>
-    </header>
+    </div>
     <!-- Sponsors logo -->
     <div class="row">
-      <div class="col-sm-4 mx-auto">
-        <div class="card">
-          <div class="card-body">
-             <img class="img-fluid mx-auto d-block" :src="Google" alt="google logo">
-          </div>
-        </div>
+      <div class="sponsor">
+        <img class="img-fluid mx-auto d-block" :src="Google" alt="google logo">
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3 mx-auto">
-        <div class="card">
-          <div class="card-body">
-             <img class="card-img-top" :src="Tampa" alt="tampa logo">
-          </div>
-        </div>
+      <div class="sponsor">
+        <img class="card-img-top" :src="Tampa" alt="tampa logo">
       </div>
-      <div class="col-sm-3 mx-auto">
-        <div class="card">
-          <div class="card-body">
-             <img class="card-img-top" :src="Cimatec" alt="cimatec logo">
-          </div>
-        </div>
+      <div class="sponsor">
+        <img class="card-img-top" :src="Cimatec" alt="cimatec logo">
       </div>
-      <div class="col-sm-3 mx-auto">
-        <div class="card">
-          <div class="card-body">
-             <img class="card-img-top" :src="Umbler" alt="">
-          </div>
-        </div>
+      <div class="sponsor">
+        <img class="card-img-top" :src="Umbler" alt="">
       </div>
     </div>
   </section>
@@ -64,8 +46,25 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.header
+  padding-bottom 40px
+  .header-title
+    font-size 2.5em
+
+  .header-text
+    font-size 18px
+    color #e0e0e0
+    a
+      color #e0e0e0
+
 .section-sponsors
-  padding 255px 0 40px
-  .card
-    background-color transparent
+  .row
+    display flex
+    justify-content space-around
+    .sponsor
+      width 300px
+      display block
+
+      img
+        width 100%
 </style>
