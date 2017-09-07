@@ -7,6 +7,7 @@
     <ticket-block/>
     <sponsors/>
     <partners/>
+    <footer-section/>
   </div>
 </template>
 
@@ -20,6 +21,7 @@
   import ViewMap from './ViewMap'
   import Sponsors from './Sponsors'
   import Partners from './Partners'
+  import FooterSection from './Footer'
 
   export default {
     data () {
@@ -36,7 +38,8 @@
       MiniCloudsSection,
       TicketBlock,
       Sponsors,
-      Partners
+      Partners,
+      FooterSection
     }
   }
 </script>
