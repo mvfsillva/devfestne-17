@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="event">
     <div class="event-stats text-center">
       <div class="container">
         <div class="row">

@@ -1,5 +1,5 @@
 <template>
-  <div class="map">
+  <div id="where" class="map">
     <div id="map" class="view-map"></div>
     <div class="location-info">
       <img :src="fachadaSenai" class="svg-salvador" alt="">
