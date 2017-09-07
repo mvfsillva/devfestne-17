@@ -42,11 +42,7 @@
       TicketBlock,
       Sponsors,
       Partners,
-<<<<<<< HEAD
-      CircleDivisor
-=======
       FooterSection
->>>>>>> Adding footer.
     }
   }
 </script>

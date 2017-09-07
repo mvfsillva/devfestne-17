@@ -9,12 +9,12 @@
 </template>
 
 <script>
-import City from 'assets/img/ssa_city.png'
+import svgSalvador from 'assets/img/svg/cidade_ssa.svg'
 
 export default {
   data () {
     return {
-      City: City
+      svgSalvador
     }
   }
 }
