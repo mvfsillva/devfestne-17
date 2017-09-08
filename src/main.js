@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'style/main.styl'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import vueSmoothScroll from 'vue-smooth-scroll'
 
 // Vue.use(Bootstrap)
