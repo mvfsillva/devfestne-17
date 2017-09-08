@@ -1,25 +1,32 @@
-// Variable
+// VARIABLE
 .tlt-header
-	font-weight 600
-	font-family Product Sans
-	text-transform uppercase
+	font-family 'Montserrat', sans-serif
 	color $google-green
 
-.header
+.col
 	text-align center
-	>.header-title
+	.header-title
 		@extend .tlt-header
-		font-size 2.2rem
-	>.header-text
-		font-size .9rem
+		display inline-block
+		font-size 2.4rem
+
+	.header-text
+		display block
+		line-height 1.66
+		font-size 1rem
 		font-weight 100
-		color $white
+		color #000
 		.anchor
 			font-style italic
 			text-transform uppercase
-	>.partners-title
-		@extend .tlt-header
-		font-size 1.8rem
+
+
+
+
+
+	// .partners-title
+	// 	@extend .tlt-header
+	// 	font-size 1.8rem
 
 .main-header
 	position relative
