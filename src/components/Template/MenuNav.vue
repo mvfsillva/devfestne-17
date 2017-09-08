@@ -7,7 +7,7 @@
             <a class="nav-link active" v-smooth-scroll="{ duration: 2000 }" href="#home">Home</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#event">Sobre</a>
+            <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#event">Sobre o evento</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#where">Local</a>
@@ -50,15 +50,16 @@
 .btn-ticket
   margin 6px
   padding 10px 16px
-  border 2px solid #ffc300
+  border 2px solid #00a158
   border-radius 2px
   text-transform uppercase
   cursor pointer
   font-weight 100
   font-size .8em
-  color #000
-  background #ffc300
+  font-family 'Montserrat', sans-serif
+  color #fff
+  background #00a158
   &:hover
     background #000
-    color #ffc300
+    color #00a158
 </style>

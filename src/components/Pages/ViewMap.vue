@@ -1,31 +1,26 @@
 <template>
   <div id="where" class="map">
-    <div id="map" class="view-map"></div>
-    <div class="location-info">
-      <img :src="fachadaSenai" class="svg-salvador" alt="">
-      <div class="address">
-        <h1>
-          SENAI CIMATEC - SENAI Bahia - FIEB <br> Centro Universitário SENAI CIMATEC
-        </h1>
-        <p>
-          Av. Orlando Gomes, 1845 - Piatã, Salvador - BA, 41650-010
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="col header">
+          <h1 class="header-title">Localização</h1>
+          <h4 class="address">Centro Universitário SENAI CIMATEC</h4>
+          <p class="location">
+            Av. Orlando Gomes, 1845 - Piatã, Salvador - BA, 41650-010
+          </p>
+        </div>
       </div>
+      <div id="map" class="view-map"></div>
     </div>
   </div>
 </template>
 
 <script>
-import mapsStyle from '../../assets/json/maps-style.json'
-import fachadaSenai from '../../assets/img/fachada_cimatec.jpg'
+import mapsStyle from 'assets/json/maps-style.json'
+
 export default {
   mounted () {
     this.createMap()
-  },
-  data () {
-    return {
-      fachadaSenai: fachadaSenai
-    }
   },
   methods: {
     createMap: function () {
@@ -44,26 +39,23 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .map
-    position relative
+    min-height 100vh
+    padding 80px 0 20px 0
+    background url('../../assets/img/historic-center.jpg')
+    background-size cover
 
-    .location-info
-      position absolute
-      width 65vw
-      height 219px
-      background #434444
-      bottom 0
+    .address
+      color #fff
+      font-weight 100
+      padding-top 2rem
 
-      .address
-        color #fff
-        display inline-block
-        vertical-align top
-        padding 0 20px
+    .location
+      color #fff
 
     .view-map
       width 100%
-      height 100vh
-      margin-top 5rem
-
+      height 60vh
+      margin-top 2rem
 </style>
