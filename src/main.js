@@ -7,8 +7,6 @@ import 'style/main.styl'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import vueSmoothScroll from 'vue-smooth-scroll'
 
-// Vue.use(Bootstrap)
-
 Vue.config.productionTip = false
 Vue.use(vueSmoothScroll)
 

@@ -17,14 +17,6 @@
           Google Developers Group (GDG) - é uma comunidade voluntária e aberta que compartilha e discute conteúdos e conhecimentos sobre tecnologias Google.
         </p>
       </div>
-      <!-- <div class="col col-md-5 text-center">
-        <h2 class="about-title">#vemprabahia</h2>
-        <h2 class="about-title">#defne2k17</h2>
-        <div class="m-t-60 text-center">
-          <p>Garanta já seu lugar no evento!</p>
-          <img :src="Ticket" alt="">
-        </div>
-      </div> -->
     </div>
   </div></section>
 </template>
@@ -47,6 +39,8 @@
 
 <style lang="stylus" scoped>
 .about
-	min-height 100vh
-	padding 80px 0 80px 0
+  min-height 100vh
+  padding 80px 0 80px
+  background url('../../assets/img/historic-center.jpg')
+  background-size cover
 </style>

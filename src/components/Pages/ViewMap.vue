@@ -2,9 +2,9 @@
   <div id="where" class="map">
     <div class="container">
       <div class="row">
-        <div class="col header">
+        <div class="col">
           <h1 class="header-title">Localização</h1>
-          <h4 class="address">Centro Universitário SENAI CIMATEC</h4>
+          <h4 class="cimatec">Centro Universitário SENAI CIMATEC</h4>
           <p class="location">
             Av. Orlando Gomes, 1845 - Piatã, Salvador - BA, 41650-010
           </p>
@@ -43,19 +43,20 @@ export default {
   .map
     min-height 100vh
     padding 80px 0 20px 0
-    background url('../../assets/img/historic-center.jpg')
-    background-size cover
 
-    .address
+    .cimatec
       color #fff
+      line-height 1.5
+      text-transform uppercase
       font-weight 100
-      padding-top 2rem
+      font-size 16px
+      padding-top 1rem
 
     .location
       color #fff
 
     .view-map
       width 100%
-      height 60vh
-      margin-top 2rem
+      height 70vh
+      margin-top 1rem
 </style>

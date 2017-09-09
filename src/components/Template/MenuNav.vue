@@ -12,9 +12,9 @@
           <li class="nav-item active">
             <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#where">Local</a>
           </li>
-          <!-- <li class="nav-item active">
-            <a class="nav-link">Palestrantes</a>
-          </li> -->
+          <li class="nav-item active">
+            <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#speakers">Palestrantes</a>
+          </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <button class="btn my-2 my-sm-0 btn-ticket" type="submit" @click.prevent="buyTicket">Comprar ingresso</button>
@@ -35,31 +35,30 @@
 </script>
 
 <style lang="stylus" scoped>
-  .menu-nav
-    background #000
-    .nav
-      a
-        color #fff
-        &:hover
-          color #ffc300
+.menu-nav
+  background #000
+  .nav
+    .nav-link
+      color #fff
+      &:hover
+        color #ffc300
 
-  @media (max-width: 767px)
-    .menu-nav
-      display none
+@media (max-width: 767px)
+  .menu-nav
+    display none
 
 .btn-ticket
   margin 6px
   padding 10px 16px
-  border 2px solid #00a158
+  border 2px solid #ffc300
   border-radius 2px
   text-transform uppercase
   cursor pointer
-  font-weight 100
   font-size .8em
-  font-family 'Montserrat', sans-serif
-  color #fff
-  background #00a158
+  font-family 'Exo 2', sans-serif
+  color #000
+  background #ffc300
   &:hover
     background #000
-    color #00a158
+    color #ffc300
 </style>
