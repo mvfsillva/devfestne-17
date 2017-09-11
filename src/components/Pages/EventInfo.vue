@@ -8,10 +8,9 @@
       </div>
       <statistics-block/>
       <div class="row justify-content-center">
-        <div class="col col-md-8 col-sm-12 col-xs-12">
+        <div class="col col-8">
         <p class="about-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra justo at accumsan posuere. Donec facilisis enim efficitur sagittis aliquet.
-          Quisque massa tellus, varius vitae vulputate nec, cursus quis quam. Curabitur in lorem a mi convallis cursus. Duis faucibus nibh non diam aliquam, at varius augue consectetur.
+          É um grande evento organizado pela comunidade GDG, que pode oferecer sessões de palestras de várias áreas, codelabs e muito mais.
         </p>
         <p class="about-text">
           Google Developers Group (GDG) - é uma comunidade voluntária e aberta que compartilha e discute conteúdos e conhecimentos sobre tecnologias Google.
@@ -43,4 +42,8 @@
   padding 80px 0 80px
   background url('../../assets/img/historic-center.jpg')
   background-size cover
+  
+  .about-text
+    font-family 'Raleway', sans-sans-serif
+    font-weight 100
 </style>

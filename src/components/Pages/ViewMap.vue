@@ -45,7 +45,7 @@ export default {
     padding 80px 0 20px 0
 
     .cimatec
-      color #fff
+      color #ffc300
       line-height 1.5
       text-transform uppercase
       font-weight 100
@@ -53,10 +53,11 @@ export default {
       padding-top 1rem
 
     .location
-      color #fff
+      color #ffc300
+      font-family 'Raleway', sans-serif
 
     .view-map
       width 100%
-      height 70vh
+      height 60vh
       margin-top 1rem
 </style>

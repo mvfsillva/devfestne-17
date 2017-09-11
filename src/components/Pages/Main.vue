@@ -4,6 +4,8 @@
     <main-header/>
     <event-info/>
     <view-map />
+    <speakers/>
+    <buy-ticket/>
     <sponsors/>
     <partners/>
     <contacts/>
@@ -16,6 +18,8 @@
   import MainHeader from './MainHeader'
   import EventInfo from './EventInfo'
   import ViewMap from './ViewMap'
+  import Speakers from './Speakers'
+  import BuyTicket from './BuyTicket'
   import Sponsors from './Sponsors'
   import Partners from './Partners'
   import Contacts from './Contacts'
@@ -27,6 +31,8 @@
       MainHeader,
       EventInfo,
       ViewMap,
+      Speakers,
+      BuyTicket,
       Sponsors,
       Partners,
       Contacts,
