@@ -17,40 +17,48 @@
         </div>
       </div>
       <div class="row sponsors-logo">
-        <sponsor-partner-logo :logoImage="GoogleDevs" />
-         <sponsor-partner-logo :logoImage="Jus" />
-         <sponsor-partner-logo :logoImage="Cimatec" />
+        <div class="col col-4">
+          <sponsor-partner-logo :logoImage="GoogleDevs" />
+        </div>
       </div>
       <div class="row sponsors-logo">
-        <sponsor-partner-logo :logoImage="Umbler" />
-        <sponsor-partner-logo :logoImage="Tampa" />
+        <div class="col col-4">
+          <sponsor-partner-logo :logoImage="Cimatec" />
+        </div>
+      </div>
+      <div class="row sponsors-logo">
+        <div class="col col-12 space-around">
+          <sponsor-partner-logo :logoImage="Umbler" />
+          <sponsor-partner-logo :logoImage="Tampa" />
+          <sponsor-partner-logo :logoImage="Jus" />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  import Praise from 'assets/img/praise.png'
-  import SponsorPartnerLogo from '../Template/SponsorPartnerLogo'
-  import GoogleDevs from 'assets/img/logos/google_devs.png'
-  import Cimatec from 'assets/img/logos/cimatec.png'
-  import Umbler from 'assets/img/logos/umbler.png'
-  import Tampa from 'assets/img/logos/tampa.png'
-  import Jus from 'assets/img/logos/jusbrasil.png'
+import Praise from 'assets/img/praise.png'
+import SponsorPartnerLogo from '../Template/SponsorPartnerLogo'
+import GoogleDevs from 'assets/img/logos/google_devs.png'
+import Cimatec from 'assets/img/logos/cimatec.png'
+import Umbler from 'assets/img/logos/umbler.png'
+import Tampa from 'assets/img/logos/tampa.png'
+import Jus from 'assets/img/logos/jusbrasil.png'
 
-  export default {
-    data() {
-      return {
-        Praise,
-        GoogleDevs,
-        Cimatec,
-        Umbler,
-        Tampa,
-        Jus
-      }
-    },
-    components: {SponsorPartnerLogo}
-  }
+export default {
+  data() {
+    return {
+      Praise,
+      GoogleDevs,
+      Cimatec,
+      Umbler,
+      Tampa,
+      Jus
+    }
+  },
+  components: { SponsorPartnerLogo }
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -58,10 +66,10 @@
   padding 40px 0 40px 0
   min-height 50vh
   background #fff
-  
+
 .sponsors-title
   color #000
-  
+
 .praise-icon
   display inline-block
   width 44px
@@ -72,4 +80,10 @@
 
 .sponsors-logo
   margin-top 3rem
+  display flex
+  justify-content center
+
+.space-around
+  display flex
+  justify-content space-around
 </style>

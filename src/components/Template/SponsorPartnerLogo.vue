@@ -1,16 +1,14 @@
 <template>
-    <div class="col col-4">
-        <img class="img-logo" :src="logoImage" alt="Logotipo do patrocinador">
-    </div>
+    <img :src="logoImage" alt="Logotipo do patrocinador">
 </template>
 
 <script>
-    export default {
-        props: {
-            logoImage: {
-                type: String,
-                default: ''
-            }
-        }
+export default {
+  props: {
+    logoImage: {
+      type: String,
+      default: ''
     }
+  }
+}
 </script>
