@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="563px" height="232px" viewBox="0 0 563 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="timeline" transform="translate(-170.000000, -469.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-3" transform="translate(171.000000, 470.000000)">
+                <path d="M280.5,160 L280.5,230.5" id="Shape"></path>
+                <path d="M531,0.5 L30,0.5 C13.4,0.5 0,13.9 0,30.5 L0,112.5 C0,129.1 13.4,142.5 30,142.5 L263,142.5 L280.5,160 L298,142.5 L531,142.5 C547.6,142.5 561,129.1 561,112.5 L561,30.5 C561,13.9 547.5,0.5 531,0.5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
