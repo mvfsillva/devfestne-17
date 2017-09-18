@@ -1,5 +1,5 @@
 <template>
-    <img :src="logoImage" alt="Logotipo do patrocinador">
+  <img :src="logoImage" alt="Logotipo do patrocinador">
 </template>
 
 <script>

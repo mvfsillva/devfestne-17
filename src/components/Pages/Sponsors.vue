@@ -18,19 +18,29 @@
       </div>
       <div class="row sponsors-logo">
         <div class="col col-4">
-          <sponsor-partner-logo :logoImage="GoogleDevs" />
+          <a href="https://developers.google.com/" target="_black">
+            <sponsor-partner-logo :logoImage="GoogleDevs" />
+          </a>
         </div>
       </div>
       <div class="row sponsors-logo">
         <div class="col col-4">
-          <sponsor-partner-logo :logoImage="Cimatec" />
+          <a href="http://www.senaicimatec.com.br/" target="_black">
+            <sponsor-partner-logo :logoImage="Cimatec" />
+          </a>
         </div>
       </div>
       <div class="row sponsors-logo">
         <div class="col col-12 space-around">
-          <sponsor-partner-logo :logoImage="Umbler" />
-          <sponsor-partner-logo :logoImage="Tampa" />
-          <sponsor-partner-logo :logoImage="Jus" />
+          <a href="https://www.umbler.com/" target="_black">
+            <sponsor-partner-logo :logoImage="Umbler" />
+          </a>
+          <a href="http://tampa.works/" target="_black">
+            <sponsor-partner-logo :logoImage="Tampa" />
+          </a>
+          <a href="https://www.jusbrasil.com.br/" target="_black">
+            <sponsor-partner-logo :logoImage="Jus" />
+          </a>
         </div>
       </div>
     </div>
