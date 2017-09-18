@@ -1,9 +1,9 @@
 <template>
 	<figure :class="['speaker-figure', color]">
-		<img :src="speakerPhoto" alt="Imagem do palestrante" />
+		<img class="speaker-photo" :src="speakerPhoto" alt="Imagem do palestrante" />
 		<figcaption>
 			<h2>{{speakerName}}
-				<span>{{speakerLastName}}</span>
+				<span class="speaker-last-name">{{speakerLastName}}</span>
 			</h2>
 		</figcaption>
 	</figure>
@@ -34,7 +34,7 @@
 
 <style lang="stylus" scoped>
 figure
-.speaker-figure 
+.speaker-figure
 	font-family 'Raleway', sans-serif
 	color #fff
 	position relative
@@ -143,5 +143,12 @@ figure.speaker-figure.hover.red img {
 figure.speaker-figure:hover.yellow img,
 figure.speaker-figure.hover.yellow img {
   border: 10px solid #e67e22
+}
+.speaker-last-name {
+  display block
+}
+.speaker-photo {
+  height: 19.4rem;
+  width: 17.9rem;
 }
 </style>

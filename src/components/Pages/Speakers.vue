@@ -15,31 +15,39 @@
 				<speaker-card color="green" speakerName="Matheus" speakerLastName="Marsiglio" :speakerPhoto="Matheus" />
 			</div>
 			<div class="row justify-content-center row-margin">
-				<speaker-card color="blue" speakerName="Maciek" speakerLastName="Ruckgaber" :speakerPhoto="Maciek" />
-				<speaker-card color="yellow" speakerName="Lorena" speakerLastName="Vilas Boas" :speakerPhoto="Lorena" />
-				<speaker-card color="green" speakerName="Fernando" speakerLastName="Daciuk" :speakerPhoto="Daciuk" />
+				<speaker-card color="green" speakerName="Maciek" speakerLastName="Ruckgaber" :speakerPhoto="Maciek" />
+				<speaker-card color="yellow" speakerName="Evelyn" speakerLastName="Mendes" :speakerPhoto="Evelyn" />
+				<speaker-card color="blue" speakerName="Fernando" speakerLastName="Daciuk" :speakerPhoto="Daciuk" />
 			</div>
+      <div class="row justify-content-center">
+        <speaker-card color="red" speakerName="Alda" speakerLastName="Rocha" :speakerPhoto="Alda" />
+      </div>
 		</div>
 	</section>
 </template>
 
 <script>
 	import SpeakerCard from '../Template/SpeakerCard'
-	import Yan from 'assets/img/speakers/Yan.png'
-	import Serena from 'assets/img/speakers/Serena.png'
+
+  import Yan from 'assets/img/speakers/Yan.png'
 	import Matheus from 'assets/img/speakers/Matheus.png'
-	import Maciek from 'assets/img/speakers/Maciek.png'
-	import Lorena from 'assets/img/speakers/Lorena.png'
+  import Maciek from 'assets/img/speakers/Maciek.png'
 	import Daciuk from 'assets/img/speakers/Daciuk.png'
-	export default {
+
+  import Serena from 'assets/img/speakers/Serena.png'
+	import Evelyn from 'assets/img/speakers/Evelyn.png'
+	import Alda from 'assets/img/speakers/Alda.png'
+
+  export default {
 		data() {
 			return {
 				Yan,
-				Serena,
 				Matheus,
 				Maciek,
-				Lorena,
-				Daciuk
+				Daciuk,
+				Serena,
+				Evelyn,
+        Alda,
 			}
 		},
 		components: {
@@ -49,14 +57,14 @@
 </script>
 
 <style lang="stylus" scoped>
-.row-margin 
+.row-margin
 	margin-top 4rem
 .speakers
 	padding 80px 0 80px
 	height auto
 	background #000
 	.speak-title
-		color #fff 
+		color #fff
 	.speak-info
 		color #ffc300
 	.speaker-container
