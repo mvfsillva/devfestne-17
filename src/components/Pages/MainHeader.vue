@@ -1,16 +1,16 @@
 <template>
   <div id="home" class="container main-header">
-    <img :src="svgSalvador" class="svg-salvador" alt="">
+    <img :src="Salvador" class="salvador" alt="cidade de salvador">
   </div>
 </template>
 
 <script>
-import svgSalvador from 'assets/img/svg/cidade_ssa.svg'
+import Salvador from 'assets/img/city.svg'
 
 export default {
   data () {
     return {
-      svgSalvador
+      Salvador
     }
   }
 }
@@ -23,14 +23,7 @@ export default {
     display -webkit-box
     display -webkit-flex
     align-items center
-    .svg-salvador
+    
+    .salvador
       width 100%
-
-  @media (max-width: 767px)
-    .main-header
-      border-left none
-      border-right none
-      padding: 0
-    .svg-salvador
-      width 89% !important
 </style>
