@@ -15,12 +15,17 @@
 				<speaker-card color="green" speakerName="Matheus" speakerLastName="Marsiglio" :speakerPhoto="Matheus" />
 			</div>
 			<div class="row justify-content-center row-margin">
-				<speaker-card color="green" speakerName="Maciek" speakerLastName="Ruckgaber" :speakerPhoto="Maciek" />
+				<speaker-card color="blue" speakerName="Maciek" speakerLastName="Ruckgaber" :speakerPhoto="Maciek" />
 				<speaker-card color="yellow" speakerName="Evelyn" speakerLastName="Mendes" :speakerPhoto="Evelyn" />
-				<speaker-card color="blue" speakerName="Fernando" speakerLastName="Daciuk" :speakerPhoto="Daciuk" />
+				<speaker-card color="red" speakerName="Fernando" speakerLastName="Daciuk" :speakerPhoto="Daciuk" />
 			</div>
       <div class="row justify-content-center">
-        <speaker-card color="red" speakerName="Alda" speakerLastName="Rocha" :speakerPhoto="Alda" />
+        <speaker-card color="green" speakerName="Alda" speakerLastName="Rocha" :speakerPhoto="Alda" />
+        <speaker-card color="blue" speakerName="Jose" speakerLastName="Manzoli" :speakerPhoto="Manzoli" />
+        <speaker-card color="yellow" speakerName="Marina" speakerLastName="Limeira" :speakerPhoto="Marina" />
+      </div>
+      <div class="row justify-content-center">
+        <speaker-card color="red" speakerName="Andrews" speakerLastName="Medina" :speakerPhoto="Medina" />
       </div>
 		</div>
 	</section>
@@ -33,10 +38,13 @@
 	import Matheus from 'assets/img/speakers/Matheus.png'
   import Maciek from 'assets/img/speakers/Maciek.png'
 	import Daciuk from 'assets/img/speakers/Daciuk.png'
+	import Medina from 'assets/img/speakers/Medina.png'
+	import Manzoli from 'assets/img/speakers/Manzoli.png'
 
   import Serena from 'assets/img/speakers/Serena.png'
 	import Evelyn from 'assets/img/speakers/Evelyn.png'
 	import Alda from 'assets/img/speakers/Alda.png'
+	import Marina from 'assets/img/speakers/Marina.png'
 
   export default {
 		data() {
@@ -45,9 +53,12 @@
 				Matheus,
 				Maciek,
 				Daciuk,
+				Medina,
+				Manzoli,
 				Serena,
 				Evelyn,
         Alda,
+        Marina,
 			}
 		},
 		components: {
