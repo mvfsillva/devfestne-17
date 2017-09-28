@@ -13,6 +13,9 @@
 </script>
 
 <style lang="stylus">
+  *:before, *:after
+  box-sizing border-box
+
   .app
-    background #000
+    background #1A1F21
 </style>
