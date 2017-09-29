@@ -1,5 +1,5 @@
 <template>
-	<div class="col-sm-4">
+	<div class="col col-md-4 col-sm-12 col-xs-12 speaker-box">
 		<div class="card speaker-card">
 			<div class="card-header">
 				<div class="mx-auto">
@@ -11,60 +11,68 @@
 				<hr class="divider">
 				<p class="card-text talk"> {{ talkName }} </p>
 			</div>
-			<div class="card-footer text-muted"></div>
 		</div>
 	</div>
 </template>
 
 <script>
-	export default {
-		props: {
-			color: {
-				type: String,
-				default: ''
-			},
-			speakerName: {
-				type: String,
-				default: 'Nome'
-			},
-			talkName: {
-				type: String,
-				default: 'Palestra'
-			},
-			speakerPhoto: {
-				type: String,
-				default: ''
-			}
+export default {
+	props: {
+		speakerPhoto: {
+			type: String,
+			default: ''
+		},
+		speakerName: {
+			type: String,
+			default: 'Nome'
+		},
+		color: {
+			type: String,
+			default: ''
+		},
+		talkName: {
+			type: String,
+			default: 'Palestra'
 		}
 	}
+}
 </script>
 
 <style lang="stylus" scoped>
+.speaker-box
+	padding 30px
+
 .speaker-card
-	-webkit-box-flex 1
-	-ms-flex-positive 1
-	flex-grow 1
 	width 294px
 	height 352px
 	border-radius 3px
-	background-color #242424
+	background-color #151515
 	color #fff
-	font-size 16px
 
 .card-header
 	border-bottom none
-	background-color #242424
+	background-color #151515
 
 .img-circle
 	border-radius 50%
 	margin 0 auto
-	width 120px
-	height 120px
+	width 140px
+	height 140px
+	webkit-filter grayscale(100%)
+	filter grayscale(100%)
 
 .speaker-name
 	letter-spacing 2px
 	font-family 'Indie Flower', cursive, sans-serif
 	font-size 26px
+	&.yellow
+		color #ffc300
+	&.green
+		color #00a158
+	&.red
+		color #df4b3a
+	&.blue
+		color #4887f7
 
 .divider
 	width 10%
