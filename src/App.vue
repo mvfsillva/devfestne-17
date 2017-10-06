@@ -17,5 +17,5 @@
   box-sizing border-box
 
   .app
-    background #1A1F21
+    background #000
 </style>
