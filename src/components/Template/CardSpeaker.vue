@@ -43,8 +43,7 @@ export default {
 	padding 30px
 
 .speaker-card
-	width 294px
-	height 352px
+	height 340px
 	border-radius 3px
 	background-color #151515
 	color #fff
