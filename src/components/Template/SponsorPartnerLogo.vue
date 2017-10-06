@@ -12,3 +12,9 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus" scoped>
+img
+  display block
+  margin 0px auto
+</style>
