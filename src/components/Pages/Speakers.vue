@@ -2,6 +2,7 @@
 <section id="speakers" class="speakers text-center">
 	<div class="container">
 		<block-title title="Palestrantes" color="white" />
+		<h5 class="text-center info"> Aguarde, em breve divulgaremos a lista completa. </h5>
 		<div class="speaker-grid row justify-content-center">
 			<card-speaker speakerName="Yan Magalhães" :speakerPhoto="Yan" color="yellow" talkName="#UseThePlatform - Levando suas aplicações ao próximo nível com polymer" />
 			<card-speaker speakerName="Serena Fernandes" :speakerPhoto="Serena" color="red" talkName="Test Driven Development" />
@@ -53,7 +54,10 @@ export default {
 			Thaise
 		}
 	},
-	components: { BlockTitle, CardSpeaker }
+	components: {
+		BlockTitle,
+		CardSpeaker
+	}
 }
 </script>
 
@@ -61,8 +65,13 @@ export default {
 .speakers
 	height auto
 	background-color #000
-	padding-bottom 2rem
+	padding 4rem 0 2rem
 
 .speaker-grid
-	margin-top 2rem
+	margin-top 1rem
+
+.info
+		color #eee
+		font-family 'Roboto', sans-serif
+		font-weight 100
 </style>

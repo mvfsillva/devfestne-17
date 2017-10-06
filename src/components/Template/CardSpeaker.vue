@@ -62,9 +62,8 @@ export default {
 	filter grayscale(100%)
 
 .speaker-name
-	letter-spacing 2px
-	font-family 'Indie Flower', cursive, sans-serif
-	font-size 26px
+	font-family 'Raleway', cursive, sans-serif
+	font-size 20px
 	&.yellow
 		color #ffc300
 	&.green

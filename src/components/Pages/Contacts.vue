@@ -25,14 +25,14 @@ export default {
 
 <style lang="stylus" scoped>
 .contacts
-	min-height 10vh
-	background #22292c
+	min-height 4vh
+	background #000
 	padding 10px 0 10px
 	a
 		margin 16px
 		text-decoration none
 		color #fff
-		font-size 2.6rem
+		font-size 1.4rem
 		&:hover
-			color #ffc300
+			color #4887f7
 </style>

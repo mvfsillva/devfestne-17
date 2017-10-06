@@ -5,7 +5,7 @@
 </template>
 
 <script>
-// import Salvador from 'assets/img/city.svg'
+import Salvador from 'assets/img/ssa_city.png'
 
 export default {
   data () {
@@ -23,7 +23,7 @@ export default {
     display -webkit-box
     display -webkit-flex
     align-items center
-    
-    .salvador
-      width 100%
+
+    // .salvador
+    //   width 100%
 </style>

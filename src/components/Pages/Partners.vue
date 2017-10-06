@@ -1,20 +1,40 @@
 <template>
   <section class="partners">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="header-title partner-title">Apoio</h1>
+    <div class="container text-center">
+      <!-- Titile -->
+      <block-title title="Apoio" color="black" />
+      <div class="row align-items-center">
+        <div class="col-sm sponsor-column">
+          <a href="http://www.99taxis.com/" target="_black">
+            <sponsor-partner-logo :logoImage="Nine" />
+          </a>
+        </div>
+        <div class="col-sm sponsor-column">
+          <a href="https://www.casadocodigo.com.br/" target="_black">
+            <sponsor-partner-logo :logoImage="Cdc" />
+          </a>
+        </div>
+        <div class="col-sm sponsor-column">
+          <a href="" target="_black">
+            <sponsor-partner-logo :logoImage="Nov" />
+          </a>
+        </div>
+        <div class="col-sm sponsor-column">
+          <a href="" target="_black">
+            <sponsor-partner-logo :logoImage="Stone" />
+          </a>
         </div>
       </div>
-      <div class="row partners-logo">
-        <div class="col col-4">
-          <sponsor-partner-logo class="img-logo" :logoImage="Nine" />
+      <div class="row align-items-center">
+        <div class="col-sm sponsor-column">
+          <a href="" target="_black">
+            <sponsor-partner-logo :logoImage="Auth" />
+          </a>
         </div>
-        <div class="col col-4">
-          <sponsor-partner-logo class="img-logo" :logoImage="Cdc" />
-        </div>
-        <div class="col col-4">
-          <sponsor-partner-logo class="img-logo img-50" :logoImage="Nov" />
+        <div class="col-sm sponsor-column">
+          <a href="" target="_black">
+            <sponsor-partner-logo :logoImage="Hotmart" />
+          </a>
         </div>
       </div>
     </div>
@@ -23,37 +43,36 @@
 </template>
 
 <script>
+import BlockTitle from '../Template/BlockTitle'
 import SponsorPartnerLogo from '../Template/SponsorPartnerLogo'
 import Nine from 'assets/img/logos/nine.png'
 import Cdc from 'assets/img/logos/casa_codigo.png'
 import Nov from 'assets/img/logos/novatec.png'
+import Stone from 'assets/img/logos/Stone.png'
+import Auth from 'assets/img/logos/Auth0.png'
+import Hotmart from 'assets/img/logos/hotmart.png'
 
 export default {
   data() {
     return {
       Nine,
       Cdc,
-      Nov
+      Nov,
+      Stone,
+      Auth,
+      Hotmart
     }
   },
-  components: { SponsorPartnerLogo }
+  components: { BlockTitle, SponsorPartnerLogo }
 }
 </script>
 
 <style lang="stylus" scoped>
 .partners
-  padding 20px 0 20px 0
+  padding 10px 0 20px 0
   min-height 20vh
   background #fff
 
-  .partner-title
-    color #000
-
-.partners-logo
-  margin-top 2rem
-  display flex
-  justify-content center
-
-  .img-50
-    width 50%
+.sponsor-column
+  padding 40px
 </style>

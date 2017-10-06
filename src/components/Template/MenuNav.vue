@@ -12,9 +12,12 @@
           <li class="nav-item active">
             <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#where">Local</a>
           </li>
+
           <li class="nav-item active">
-            <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#speakers">Palestrantes</a>
+            <router-link to="speakers" class="nav-link">Palestrantes</router-link>
+            <!-- <a class="nav-link" v-smooth-scroll="{ duration: 2000 }" href="#speakers">Palestrantes</a> -->
           </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <button class="btn my-2 my-sm-0 btn-ticket" type="submit" @click.prevent="buyTicket">Comprar ingresso</button>
@@ -25,13 +28,13 @@
 </template>
 
 <script>
-  export default {
-    methods: {
-      buyTicket () {
-        window.open('https://loja.tampa.works/produto/devfest-nordeste-2017/', '_blank')
-      }
+export default {
+  methods: {
+    buyTicket() {
+      window.open('https://loja.tampa.works/produto/devfest-nordeste-2017/', '_blank')
     }
   }
+}
 </script>
 
 <style lang="stylus" scoped>
