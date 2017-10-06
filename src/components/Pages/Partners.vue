@@ -1,7 +1,6 @@
 <template>
   <section class="partners">
     <div class="container text-center">
-      <!-- Titile -->
       <block-title title="Apoio" color="black" />
       <div class="row align-items-center">
         <div class="col-sm sponsor-column">
@@ -15,29 +14,28 @@
           </a>
         </div>
         <div class="col-sm sponsor-column">
-          <a href="" target="_black">
+          <a href="https://www.novatec.com.br/" target="_black">
             <sponsor-partner-logo :logoImage="Nov" />
           </a>
         </div>
         <div class="col-sm sponsor-column">
-          <a href="" target="_black">
+          <a href="https://www.stone.com.br/" target="_black">
             <sponsor-partner-logo :logoImage="Stone" />
           </a>
         </div>
       </div>
       <div class="row align-items-center">
         <div class="col-sm sponsor-column">
-          <a href="" target="_black">
+          <a href="https://auth0.com/" target="_black">
             <sponsor-partner-logo :logoImage="Auth" />
           </a>
         </div>
         <div class="col-sm sponsor-column">
-          <a href="" target="_black">
+          <a href="https://www.hotmart.com/pt/" target="_black">
             <sponsor-partner-logo :logoImage="Hotmart" />
           </a>
         </div>
       </div>
-    </div>
     </div>
   </section>
 </template>
@@ -48,7 +46,7 @@ import SponsorPartnerLogo from '../Template/SponsorPartnerLogo'
 import Nine from 'assets/img/logos/nine.png'
 import Cdc from 'assets/img/logos/casa_codigo.png'
 import Nov from 'assets/img/logos/novatec.png'
-import Stone from 'assets/img/logos/Stone.png'
+import Stone from 'assets/img/logos/stone.png'
 import Auth from 'assets/img/logos/Auth0.png'
 import Hotmart from 'assets/img/logos/hotmart.png'
 
