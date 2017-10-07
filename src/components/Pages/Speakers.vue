@@ -2,8 +2,7 @@
 	<section id="speakers" class="speakers text-center">
 		<div class="container">
 			<block-title title="Palestrantes" color="white" />
-			<h6 class="text-center info"> Aguarde, em breve divulgaremos a lista completa. </h6>
-			<div class="speaker-grid row justify-content-center">
+			<div class="row justify-content-center">
 				<card-speaker speakerName="Yan Magalhães" :speakerPhoto="Yan" color="yellow" talkName="#UseThePlatform - Levando suas aplicações ao próximo nível com polymer" />
 				<card-speaker speakerName="Serena Fernandes" :speakerPhoto="Serena" color="red" talkName="Test Driven Development" />
 				<card-speaker speakerName="Matheus Marsiglio" :speakerPhoto="Matheus" color="green" talkName="Imutabilidade em objetos com Javascript" />
@@ -19,6 +18,7 @@
 				<card-speaker speakerName="Maria Clara" :speakerPhoto="Maria" color="green" talkName="O guia do mochileiro para segurança client-side" />
 				<card-speaker speakerName="Thiago Almeida" :speakerPhoto="Thiago" color="yellow" talkName="Acessibilidade web - como estamos pensando?" />
 				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="blue" talkName="Componentes: o lado sombrio que não te contam!" />
+				<card-speaker speakerName="Alano Acioli" :speakerPhoto="Alano" color="green" talkName="Realidade virtual e o futuro" />
 			</div>
 		</div>
 	</section>
@@ -42,6 +42,7 @@ import Thaise from 'assets/img/speakers/Thaise.png'
 import Maria from 'assets/img/speakers/Maria.png'
 import Thiago from 'assets/img/speakers/Thiago.png'
 import Pulis from 'assets/img/speakers/Pulis.jpg'
+import Alano from 'assets/img/speakers/Alano.png'
 
 export default {
 	data() {
@@ -60,7 +61,8 @@ export default {
 			Thaise,
 			Maria,
 			Thiago,
-			Pulis
+			Pulis,
+			Alano
 		}
 	},
 	components: {
@@ -75,12 +77,4 @@ export default {
 	height auto
 	background-color #000
 	padding 4rem 0 2rem
-
-.speaker-grid
-	margin-top 1rem
-
-.info
-		color #eee
-		font-family 'Roboto', sans-serif
-		font-weight 100
 </style>
