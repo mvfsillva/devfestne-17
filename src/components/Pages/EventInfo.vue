@@ -40,8 +40,7 @@
 .about
   min-height 100vh
   padding 80px 0 80px
-  background url('../../assets/img/historic-center.jpg')
-  background-size cover
+
   
   .about-text
     font-family 'Raleway', sans-sans-serif
