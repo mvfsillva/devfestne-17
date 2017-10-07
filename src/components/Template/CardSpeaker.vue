@@ -1,6 +1,6 @@
 <template>
 	<div class="col col-md-4 col-sm-12 col-xs-12 speaker-box">
-		<div class="card speaker-card">
+		<div class="card">
 			<div class="card-header">
 				<div class="mx-auto">
 					<img :src="speakerPhoto" class="img-circle" alt="Foto de palestrante">
@@ -40,17 +40,17 @@ export default {
 
 <style lang="stylus" scoped>
 .speaker-box
-	padding 30px
+	padding 26px
 
-.speaker-card
+.card
 	height 340px
-	border-radius 3px
-	background-color #151515
+	border-radius 2px
+	background-color #0f0f0f
 	color #fff
 
 .card-header
 	border-bottom none
-	background-color #151515
+	background-color #0f0f0f
 
 .img-circle
 	border-radius 50%
@@ -61,8 +61,9 @@ export default {
 	filter grayscale(100%)
 
 .speaker-name
-	font-family 'Raleway', cursive, sans-serif
-	font-size 20px
+	text-transform uppercase
+	font-family 'Roboto', sans-serif
+	font-size 16px
 	&.yellow
 		color #ffc300
 	&.green
@@ -72,14 +73,8 @@ export default {
 	&.blue
 		color #4887f7
 
-.divider
-	width 10%
-	margin-left auto
-	margin-right auto
-
 .talk
-	margin 0 0 10px
-	letter-spacing 1px
-	font-size 14px
+	font-size 16px
 	font-family 'Exo 2', sans-serif
+	color #a8a8a8
 </style>
