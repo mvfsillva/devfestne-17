@@ -16,7 +16,7 @@
 				<card-speaker speakerName="Evelyn Mendes" :speakerPhoto="Evelyn" color="red" workAt="ThoughtWorks" cityName="Porto Alegre, RS"/>
 				<card-speaker speakerName="Thaise Dantas" :speakerPhoto="Thaise" color="blue" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
 				<card-speaker speakerName="Thiago Almeida" :speakerPhoto="Thiago" color="yellow" workAt="Hotmart" cityName="Belo Horizonte, MG"/>
-				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="blue" workAt="" cityName="Belo Horizonte, MG"/>
+				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="blue" workAt="Monetizze" cityName="Belo Horizonte, MG"/>
 				<card-speaker speakerName="Alano Acioli" :speakerPhoto="Alano" color="green" workAt="Senai CIMATEC" cityName="Salvador, BA"/>
 				<card-speaker speakerName="Maria Clara" :speakerPhoto="Maria" color="green" workAt="Auth0 Ambassador" cityName="Maceió, AL"/>
 				<card-speaker speakerName="Paula Faria" :speakerPhoto="Paula" color="blue" workAt="Toro Investimentos" cityName="Belo Horizonte, MG"/>
