@@ -1,24 +1,27 @@
 <template>
 	<section id="speakers" class="speakers text-center">
 		<div class="container">
-			<block-title title="Palestrantes" color="white" />
+			<block-title title="Palestrantes" color="black"/>
 			<div class="row justify-content-center">
-				<card-speaker speakerName="Yan Magalhães" :speakerPhoto="Yan" color="yellow" talkName="#UseThePlatform - Levando suas aplicações ao próximo nível com polymer" />
-				<card-speaker speakerName="Serena Fernandes" :speakerPhoto="Serena" color="red" talkName="Test Driven Development" />
-				<card-speaker speakerName="Matheus Marsiglio" :speakerPhoto="Matheus" color="green" talkName="Imutabilidade em objetos com Javascript" />
-				<card-speaker speakerName="Maciek Ruckgaber" :speakerPhoto="Maciek" color="blue" talkName="IoT with raspberry Pi and MATRIX Creator" />
-				<card-speaker speakerName="Fernando Daciuk" :speakerPhoto="Daciuk" color="green" talkName="The secret of functions" />
-				<card-speaker speakerName="Alda Rocha" :speakerPhoto="Alda" color="yellow" talkName="Raio-x de UX" />
-				<card-speaker speakerName="José Manzoli" :speakerPhoto="Manzoli" color="blue" talkName="Troubleshooting - Do caos à rápida solução de problemas utilizando ferramentas como: Splunk, NewRelic e Perf4j" />
-				<card-speaker speakerName="Marina Limeira" :speakerPhoto="Marina" color="red" talkName="Crie sua própria realidade utilizando A-frame" />
-				<card-speaker speakerName="Geisa Santos" :speakerPhoto="Geisa" color="yellow" talkName="Hackeando além do Wi-Fi" />
-				<card-speaker speakerName="Evelyn Mendes" :speakerPhoto="Evelyn" color="red" talkName="Angular 4 + Firebase, realtime não precisa ser complicado" />
-				<card-speaker speakerName="Andrews Medina" :speakerPhoto="Medina" color="green" talkName="Escrevendo uma aplicação realtime para milhares de usuários simultâneos" />
-				<card-speaker speakerName="Thaise Dantas" :speakerPhoto="Thaise" color="blue" talkName="Testes! E aí de quem é essa responsabilidade?" />
-				<card-speaker speakerName="Maria Clara" :speakerPhoto="Maria" color="green" talkName="O guia do mochileiro para segurança client-side" />
-				<card-speaker speakerName="Thiago Almeida" :speakerPhoto="Thiago" color="yellow" talkName="Acessibilidade web - como estamos pensando?" />
-				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="blue" talkName="Componentes: o lado sombrio que não te contam!" />
-				<card-speaker speakerName="Alano Acioli" :speakerPhoto="Alano" color="green" talkName="Realidade virtual e o futuro" />
+				<card-speaker speakerName="Yan Magalhães" :speakerPhoto="Yan" color="yellow" workAt="4YouSee" cityName="Belo Horizonte, MG"/>
+				<card-speaker speakerName="Matheus Marsiglio" :speakerPhoto="Matheus" color="green" workAt="#vivendo" cityName="São Paulo, SP"/>
+				<card-speaker speakerName="Maciek Ruckgaber" :speakerPhoto="Maciek" color="blue" workAt="AdMobilize" cityName="Bogotá, Colômbia"/>
+				<card-speaker speakerName="Serena Fernandes" :speakerPhoto="Serena" color="red" workAt="Meliuz" cityName="Belo Horizonte, MG"/>
+				<card-speaker speakerName="Alda Rocha" :speakerPhoto="Alda" color="yellow" workAt="Senai" cityName="São Paulo, SP"/>
+				<card-speaker speakerName="Marina Limeira" :speakerPhoto="Marina" color="green" workAt="Bionexo" cityName="São Paulo, SP"/>
+				<card-speaker speakerName="Fernando Daciuk" :speakerPhoto="Daciuk" color="green" workAt="Zimp" cityName="Curitiba, PR"/>
+				<card-speaker speakerName="José Manzoli" :speakerPhoto="Manzoli" color="blue" workAt="99" cityName="São Paulo, SP"/>
+				<card-speaker speakerName="Andrews Medina" :speakerPhoto="Medina" color="red" workAt="Jusbrasil" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Geisa Santos" :speakerPhoto="Geisa" color="yellow" workAt="Periféricas" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Evelyn Mendes" :speakerPhoto="Evelyn" color="red" workAt="ThoughtWorks" cityName="Porto Alegre, RS"/>
+				<card-speaker speakerName="Thaise Dantas" :speakerPhoto="Thaise" color="blue" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
+				<card-speaker speakerName="Thiago Almeida" :speakerPhoto="Thiago" color="yellow" workAt="Hotmart" cityName="Belo Horizonte, MG"/>
+				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="blue" workAt="" cityName="Belo Horizonte, MG"/>
+				<card-speaker speakerName="Alano Acioli" :speakerPhoto="Alano" color="green" workAt="Senai CIMATEC" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Maria Clara" :speakerPhoto="Maria" color="green" workAt="Auth0 Ambassador" cityName="Maceió, AL"/>
+				<card-speaker speakerName="Paula Faria" :speakerPhoto="Paula" color="blue" workAt="Toro Investimentos" cityName="Belo Horizonte, MG"/>
+				<card-speaker speakerName="Marla Dore" :speakerPhoto="Marla" color="red" workAt="Unijorge" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Italo Marcel" :speakerPhoto="Italo" color="yellow" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
 			</div>
 		</div>
 	</section>
@@ -43,6 +46,9 @@ import Maria from 'assets/img/speakers/Maria.png'
 import Thiago from 'assets/img/speakers/Thiago.png'
 import Pulis from 'assets/img/speakers/Pulis.jpg'
 import Alano from 'assets/img/speakers/Alano.png'
+import Paula from 'assets/img/speakers/Paula.png'
+import Marla from 'assets/img/speakers/Marla.png'
+import Italo from 'assets/img/speakers/Italo.png'
 
 export default {
 	data() {
@@ -62,7 +68,10 @@ export default {
 			Maria,
 			Thiago,
 			Pulis,
-			Alano
+			Alano,
+			Paula,
+			Marla,
+			Italo
 		}
 	},
 	components: {
@@ -75,6 +84,6 @@ export default {
 <style lang="stylus" scoped>
 .speakers
 	height auto
-	background-color #000
-	padding 4rem 0 2rem
+	background-color #fff
+	padding 2rem 0 2rem
 </style>
