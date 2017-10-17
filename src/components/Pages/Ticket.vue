@@ -2,7 +2,7 @@
   <section class="ticket text-center">
     <div class="container">
       <block-title title="21 de outubro 2017" color="green" />
-      <h5 class="text-center info-date"> Sábado, das 8h às 18h </h5>
+      <h5 class="text-center info-date"> Sábado, das 8h às 18:30h </h5>
       <div class="row justify-content-center">
         <a href="https://loja.tampa.works/produto/devfest-nordeste-2017/" target="_blank" class="link-ticket">
           <img :src="Ticket" alt="Comprar ingresso">
@@ -28,7 +28,7 @@ export default {
 <style lang="stylus" scoped>
 .ticket
   min-height 18vh
-  padding 40px 0 60px
+  padding 60px 0 80px
   background-color #0f0f0f
 
 .info-date

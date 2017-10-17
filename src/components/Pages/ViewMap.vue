@@ -8,8 +8,8 @@
             <h4 class="cimatec"> Centro Universitário SENAI CIMATEC </h4>
             <p> Av. Orlando Gomes, 1845 - Piatã, Salvador - BA, 41650-010 </p>
           </div>
-          <div id="map" class="map-pointer"></div>
         </div>
+        <div id="map" class="map-pointer"></div>
       </div>
     </div>
   </section>
@@ -48,17 +48,17 @@ export default {
 
 .address
   margin 10px
-  font-family 'Exo 2', sans-serif
+  font-family 'Roboto', sans-serif
   > .cimatec
       font-weight 800
       font-size 1rem
       text-transform uppercase
-      color #00a158
+      color #4887f7
   > p 
       font-size 1rem
       font-weight 400
       line-height 1.5
-      color #00a158
+      color #4887f7
 
 .map-pointer
   width 100%

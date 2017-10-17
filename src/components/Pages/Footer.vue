@@ -20,7 +20,7 @@
 	color #fff
 	text-align center
 	background-color #000
-	font-family 'Exo 2', sans-serif
+	font-family 'Roboto', sans-serif
 
 .links-footer
 	float right

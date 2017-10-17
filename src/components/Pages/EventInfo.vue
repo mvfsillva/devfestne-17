@@ -1,48 +1,52 @@
 <template>
-  <section class="about" id="event">
+  <section class="about text-center">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="header-title">Sobre o evento</h1>
+      <block-title title="O evento" color="white" />
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="info-image">
+            <img :src="Info" class="image" alt="Imagem com informações sobre o evento">
+          </div>
         </div>
       </div>
-      <statistics-block/>
-      <div class="row justify-content-center">
-        <div class="col col-8">
-        <p class="about-text">
-          É um grande evento organizado pela comunidade GDG, que pode oferecer sessões de palestras de várias áreas, codelabs e muito mais.
-        </p>
-        <p class="about-text">
-          Google Developers Group (GDG) - é uma comunidade voluntária e aberta que compartilha e discute conteúdos e conhecimentos sobre tecnologias Google.
-        </p>
-      </div>
     </div>
-  </div></section>
+  </section>
 </template>
 
 <script>
-  import StatisticsBlock from './StatisticsBlock'
-  import Ticket from 'assets/img/ticket.png'
+import BlockTitle from '../Template/BlockTitle'
+import Info from 'assets/img/svg/info.svg'
 
-  export default {
-    data () {
-      return {
-        Ticket
-      }
-    },
-    components: {
-      StatisticsBlock
+export default {
+  data() {
+    return {
+      Info
     }
+  },
+  components: {
+    BlockTitle
   }
+}
 </script>
 
 <style lang="stylus" scoped>
 .about
   min-height 100vh
-  padding 80px 0 80px
+  padding 20px 0 80px
+  background-image url(../../assets/img/elevador.jpg)
+  background-size cover
 
-  
-  .about-text
-    font-family 'Raleway', sans-sans-serif
-    font-weight 100
+.info-image
+  margin-top 2rem
+
+.image
+  width 40rem
+
+@media screen and (max-width: 800px)
+  .image
+    width 30rem    
+
+@media screen and (max-width: 600px)
+  .image
+    width 18rem        
 </style>

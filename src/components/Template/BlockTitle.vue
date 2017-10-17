@@ -31,7 +31,7 @@ export default {
 	line-height 48px
 	font-size 30px
 	font-family 'Roboto', sans-serif
-	font-weight 800
+	font-weight 600
 	&.black
 		color #000
 	&.white

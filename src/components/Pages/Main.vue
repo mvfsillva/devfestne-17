@@ -1,11 +1,12 @@
 <template>
   <main>
-    <menu-nav/>
+    <!-- <menu-nav/> -->
     <main-header/>
     <event-info/>
     <view-map/>
     <speakers/>
     <ticket/>
+    <schedule/>
     <sponsors/>
     <partners/>
     <footer-page/>
@@ -22,6 +23,7 @@
   import Sponsors from './Sponsors'
   import Partners from './Partners'
   import FooterPage from './Footer'
+  import Schedule from './Schedule'
 
   export default {
     components: {
@@ -33,7 +35,8 @@
       Ticket,
       Sponsors,
       Partners,
-      FooterPage
+      FooterPage,
+      Schedule
     }
   }
 </script>

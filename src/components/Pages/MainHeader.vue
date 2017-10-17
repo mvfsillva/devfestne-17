@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Salvador from 'assets/img/ssa_city.png'
+import Salvador from 'assets/img/svg/cidade_ssa.svg'
 
 export default {
   data () {

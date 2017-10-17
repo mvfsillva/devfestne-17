@@ -7,9 +7,8 @@
 				</div>
 			</div>
 			<div class="card-body">
-				<h4 :class="['card-title speaker-name', color]"> {{ speakerName }} </h4>
-				<hr class="divider">
-				<p class="card-text talk"> {{ talkName }} </p>
+				<h4 :class="['speaker-name', color]"> {{ speakerName }} </h4>
+				<span class="work"> <strong> {{ workAt }} </strong> - {{ cityName }} </span>
 			</div>
 		</div>
 	</div>
@@ -24,15 +23,19 @@ export default {
 		},
 		speakerName: {
 			type: String,
-			default: 'Nome'
+			default: ''
 		},
 		color: {
 			type: String,
 			default: ''
 		},
-		talkName: {
+		workAt: {
 			type: String,
-			default: 'Palestra'
+			default: ''
+		},
+		cityName: {
+			type: String,
+			default: ''
 		}
 	}
 }
@@ -40,41 +43,37 @@ export default {
 
 <style lang="stylus" scoped>
 .speaker-box
-	padding 26px
+	padding 10px
 
-.card
-	height 340px
-	border-radius 2px
-	background-color #0f0f0f
-	color #fff
+.card 
+	color #000
+	border none
 
-.card-header
+.card-header 
 	border-bottom none
-	background-color #0f0f0f
+	background-color transparent
 
 .img-circle
 	border-radius 50%
 	margin 0 auto
-	width 140px
-	height 140px
-	webkit-filter grayscale(100%)
-	filter grayscale(100%)
+	width 170px
+	height 170px
 
-.speaker-name
+.speaker-name 
 	text-transform uppercase
-	font-family 'Roboto', sans-serif
-	font-size 16px
-	&.yellow
+	font-family 'Raleway', sans-serif
+	font-size 18px
+	font-weight 600
+	&.yellow 
 		color #ffc300
-	&.green
+	&.green 
 		color #00a158
 	&.red
 		color #df4b3a
 	&.blue
 		color #4887f7
 
-.talk
-	font-size 16px
-	font-family 'Exo 2', sans-serif
-	color #a8a8a8
+.work
+	font-size .8em
+	font-family 'Roboto', sans-serif
 </style>
