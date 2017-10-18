@@ -44,10 +44,10 @@
 import BlockTitle from '../Template/BlockTitle'
 import SponsorPartnerLogo from '../Template/SponsorPartnerLogo'
 import Nine from 'assets/img/logos/nine.png'
-import Cdc from 'assets/img/logos/casa_codigo.png'
+import Cdc from 'assets/img/logos/casa.png'
 import Nov from 'assets/img/logos/novatec.png'
 import Stone from 'assets/img/logos/stone.png'
-import Auth from 'assets/img/logos/Auth0.png'
+import Auth from 'assets/img/logos/auth0.png'
 import Hotmart from 'assets/img/logos/hotmart.png'
 
 export default {
@@ -69,7 +69,7 @@ export default {
 .partners
   padding 10px 0 20px 0
   min-height 20vh
-  background #fff
+  background #e5e7ea
 
 .sponsor-column
   padding 40px

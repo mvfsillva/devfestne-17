@@ -83,7 +83,7 @@ export default {
 .sponsors
   padding 20px 0 20px 0
   min-height 40vh
-  background #eee
+  background #e5e7ea
 
 .sponsors-column
   padding 40px
