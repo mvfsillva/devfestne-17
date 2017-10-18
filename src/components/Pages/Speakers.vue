@@ -1,7 +1,7 @@
 <template>
 	<section id="speakers" class="speakers text-center">
 		<div class="container">
-			<block-title title="Palestrantes" color="black"/>
+			<block-title title="Palestrantes" color="white"/>
 			<div class="row justify-content-center">
 				<card-speaker speakerName="Yan Magalhães" :speakerPhoto="Yan" color="yellow" workAt="4YouSee" cityName="Belo Horizonte, MG"/>
 				<card-speaker speakerName="Matheus Marsiglio" :speakerPhoto="Matheus" color="green" workAt="#vivendo" cityName="São Paulo, SP"/>
@@ -13,15 +13,15 @@
 				<card-speaker speakerName="José Manzoli" :speakerPhoto="Manzoli" color="blue" workAt="99" cityName="São Paulo, SP"/>
 				<card-speaker speakerName="Andrews Medina" :speakerPhoto="Medina" color="red" workAt="Jusbrasil" cityName="Salvador, BA"/>
 				<card-speaker speakerName="Geisa Santos" :speakerPhoto="Geisa" color="yellow" workAt="Periféricas" cityName="Salvador, BA"/>
-				<card-speaker speakerName="Evelyn Mendes" :speakerPhoto="Evelyn" color="red" workAt="ThoughtWorks" cityName="Porto Alegre, RS"/>
+				<card-speaker speakerName="Evelyn Mendes" :speakerPhoto="Evelyn" color="red" workAt="transnerd.com.br" cityName="Porto Alegre, RS"/>
 				<card-speaker speakerName="Thaise Dantas" :speakerPhoto="Thaise" color="blue" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
 				<card-speaker speakerName="Thiago Almeida" :speakerPhoto="Thiago" color="yellow" workAt="Hotmart" cityName="Belo Horizonte, MG"/>
 				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="blue" workAt="Monetizze" cityName="Belo Horizonte, MG"/>
-				<card-speaker speakerName="Alano Acioli" :speakerPhoto="Alano" color="green" workAt="Senai CIMATEC" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Italo Marcel" :speakerPhoto="Italo" color="yellow" workAt="Stone" cityName="Rio de Janeiro, RJ"/>	
 				<card-speaker speakerName="Maria Clara" :speakerPhoto="Maria" color="green" workAt="Auth0 Ambassador" cityName="Maceió, AL"/>
-				<card-speaker speakerName="Paula Faria" :speakerPhoto="Paula" color="blue" workAt="Toro Investimentos" cityName="Belo Horizonte, MG"/>
 				<card-speaker speakerName="Marla Dore" :speakerPhoto="Marla" color="red" workAt="Unijorge" cityName="Salvador, BA"/>
-				<card-speaker speakerName="Italo Marcel" :speakerPhoto="Italo" color="yellow" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
+				<card-speaker speakerName="Alano Acioli" :speakerPhoto="Alano" color="green" workAt="Senai CIMATEC" cityName="Salvador, BA"/>
+				
 			</div>
 		</div>
 	</section>
@@ -84,6 +84,6 @@ export default {
 <style lang="stylus" scoped>
 .speakers
 	height auto
-	background-color #fff
+	background-color #000
 	padding 2rem 0 2rem
 </style>
