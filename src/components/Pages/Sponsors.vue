@@ -5,8 +5,8 @@
       <div class="row">
         <div class="col">
           <p class="header-text">
-            Agradecemos as empresas que apoiam, investem e acreditam nesse projeto.
-            <br> Faça parte,
+            <!-- Agradecemos as empresas que apoiam, investem e acreditam nesse projeto. <br> -->
+             Faça parte,
             <a class="anchor" href="https://goo.gl/wMnezP" target="_blank">seja um patrocinador!</a>
           </p>
         </div>
@@ -81,9 +81,9 @@ export default {
 
 <style lang="stylus" scoped>
 .sponsors
-  padding 40px 0 20px 0
+  padding 20px 0 20px 0
   min-height 40vh
-  background #fff
+  background #eee
 
 .sponsors-column
   padding 40px
