@@ -9,6 +9,7 @@
     <sponsors/>
     <partners/>
     <presenter/>
+    <contacts/>
     <footer-page/>
   </main>
 </template>
@@ -23,6 +24,7 @@
   import Sponsors from './Sponsors'
   import Partners from './Partners'
   import Presenter from './Presenter'
+  import Contacts from './Contacts'
   import FooterPage from './Footer'
   
 
@@ -37,6 +39,7 @@
       Sponsors,
       Partners,
       Presenter,
+      Contacts,
       FooterPage
     }
   }
