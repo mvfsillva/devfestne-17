@@ -19,8 +19,10 @@
 .footer
 	color #fff
 	text-align center
-	background-color #000
+	background-color #121212
 	font-family 'Roboto', sans-serif
+	font-size 12px
+	text-transform uppercase
 
 .links-footer
 	float right

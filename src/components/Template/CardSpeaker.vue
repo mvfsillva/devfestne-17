@@ -75,6 +75,7 @@ export default {
 		color #4887f7
 
 .work
-	font-size .8em
+	font-size .9em
 	font-family 'Raleway', sans-serif
+	letter-spacing .8px
 </style>
