@@ -9,19 +9,19 @@
 				<card-speaker speakerName="Serena Fernandes" :speakerPhoto="Serena" color="red" workAt="Meliuz" cityName="Belo Horizonte, MG"/>
 				<card-speaker speakerName="Alda Rocha" :speakerPhoto="Alda" color="yellow" workAt="Senai" cityName="São Paulo, SP"/>
 				<card-speaker speakerName="Marina Limeira" :speakerPhoto="Marina" color="green" workAt="Bionexo" cityName="São Paulo, SP"/>
-				<card-speaker speakerName="Fernando Daciuk" :speakerPhoto="Daciuk" color="green" workAt="Zimp" cityName="Curitiba, PR"/>
-				<card-speaker speakerName="José Manzoli" :speakerPhoto="Manzoli" color="blue" workAt="99" cityName="São Paulo, SP"/>
-				<card-speaker speakerName="Andrews Medina" :speakerPhoto="Medina" color="red" workAt="Jusbrasil" cityName="Salvador, BA"/>
-				<card-speaker speakerName="Geisa Santos" :speakerPhoto="Geisa" color="yellow" workAt="Periféricas" cityName="Salvador, BA"/>
-				<card-speaker speakerName="Evelyn Mendes" :speakerPhoto="Evelyn" color="red" workAt="transnerd.com.br" cityName="Porto Alegre, RS"/>
-				<card-speaker speakerName="Thaise Dantas" :speakerPhoto="Thaise" color="blue" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
+				<card-speaker speakerName="Fernando Daciuk" :speakerPhoto="Daciuk" color="blue" workAt="Zimp" cityName="Curitiba, PR"/>
+				<card-speaker speakerName="José Manzoli" :speakerPhoto="Manzoli" color="red" workAt="99" cityName="São Paulo, SP"/>
+				<card-speaker speakerName="Andrews Medina" :speakerPhoto="Medina" color="yellow" workAt="Jusbrasil" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Geisa Santos" :speakerPhoto="Geisa" color="green" workAt="Periféricas" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Evelyn Mendes" :speakerPhoto="Evelyn" color="blue" workAt="transnerd.com.br" cityName="Porto Alegre, RS"/>
+				<card-speaker speakerName="Thaise Dantas" :speakerPhoto="Thaise" color="red" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
 				<card-speaker speakerName="Thiago Almeida" :speakerPhoto="Thiago" color="yellow" workAt="Hotmart" cityName="Belo Horizonte, MG"/>
-				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="blue" workAt="Monetizze" cityName="Belo Horizonte, MG"/>
-				<card-speaker speakerName="Italo Marcel" :speakerPhoto="Italo" color="yellow" workAt="Stone" cityName="Rio de Janeiro, RJ"/>	
-				<card-speaker speakerName="Maria Clara" :speakerPhoto="Maria" color="green" workAt="Auth0 Ambassador" cityName="Maceió, AL"/>
-				<card-speaker speakerName="Marla Dore" :speakerPhoto="Marla" color="red" workAt="Unijorge" cityName="Salvador, BA"/>
+				<card-speaker speakerName="Bruno Pulis" :speakerPhoto="Pulis" color="green" workAt="Monetizze" cityName="Belo Horizonte, MG"/>
+				<card-speaker speakerName="Italo Marcel" :speakerPhoto="Italo" color="blue" workAt="Stone" cityName="Rio de Janeiro, RJ"/>
+				<card-speaker speakerName="Maria Clara" :speakerPhoto="Maria" color="red" workAt="Auth0 Ambassador" cityName="Maceió, AL"/>
+				<card-speaker speakerName="Marla Dore" :speakerPhoto="Marla" color="yellow" workAt="Unijorge" cityName="Salvador, BA"/>
 				<card-speaker speakerName="Alano Acioli" :speakerPhoto="Alano" color="green" workAt="Senai CIMATEC" cityName="Salvador, BA"/>
-				
+
 			</div>
 		</div>
 	</section>
