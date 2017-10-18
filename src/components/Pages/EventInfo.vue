@@ -1,12 +1,25 @@
 <template>
   <section class="about text-center">
     <div class="container">
-      <block-title title="O evento" color="white" />
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <div class="info-image">
-            <img :src="Info" class="image" alt="Imagem com informações sobre o evento">
-          </div>
+      <div class="row">
+        <div class="col col-md-6 col-sm-12 col-xs-12">
+          <block-title title="O evento" color="black" />
+          <p>
+            Organizada pela comunidade Google Developers Group de cada região, a temporada devfest acontece em várias partes 
+            do mundo entre os meses de setembro e novembro.
+          </p>
+          <p>
+            E no Brasil o primeiro foi em 2012 em São Paulo, sendo que no nordeste o primeiro DevfestNE aconteceu em Aracaju em 2014, 
+            posteriormente Recife 2015, Maceió 2016 e este ano chegou a vez de nossa querida Salvador - BA.
+          </p>
+          <p>
+            O GDG Salvador com o apoio de grande parte dos GDGs do nordeste espera você para viver uma experiência incrível e única.
+          </p>
+        </div>
+        <div class="col col-md-5 text-center">
+          <h2 class="about-title"> #dfne2k17 </h2>
+          <h2 class="about-title"> #vemprabahia </h2>
+          <img :src="Pelo" class="mt-60" alt="Iconografia de casas">
         </div>
       </div>
     </div>
@@ -15,12 +28,12 @@
 
 <script>
 import BlockTitle from '../Template/BlockTitle'
-import Info from 'assets/img/svg/info.svg'
+import Pelo from 'assets/img/svg/pelo.svg'
 
 export default {
   data() {
     return {
-      Info
+      Pelo
     }
   },
   components: {
@@ -31,22 +44,21 @@ export default {
 
 <style lang="stylus" scoped>
 .about
-  min-height 100vh
-  padding 20px 0 80px
-  background-image url(../../assets/img/elevador.jpg)
-  background-size cover
+  min-height 60vh
+  padding 40px 0 40px
+  background #fff
 
-.info-image
-  margin-top 2rem
+  p 
+    font-weight 100
+    font-size 18px
+    font-family 'Roboto', sans-serif
+    text-align justify
 
-.image
-  width 40rem
+.mt-60
+  margin-top 60px
 
-@media screen and (max-width: 800px)
-  .image
-    width 30rem    
-
-@media screen and (max-width: 600px)
-  .image
-    width 18rem        
+.about-title 
+  font-weight 600
+  text-transform uppercase
+  font-family 'Roboto', sans-serif
 </style>
