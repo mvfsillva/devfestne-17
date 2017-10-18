@@ -46,12 +46,13 @@ export default {
 	padding 10px
 
 .card 
-	color #000
+	color #fff
 	border none
+	background-color #000
 
 .card-header 
 	border-bottom none
-	background-color transparent
+	background-color #000
 
 .img-circle
 	border-radius 50%
@@ -62,7 +63,7 @@ export default {
 .speaker-name 
 	text-transform uppercase
 	font-family 'Raleway', sans-serif
-	font-size 18px
+	font-size 20px
 	font-weight 600
 	&.yellow 
 		color #ffc300
@@ -75,5 +76,5 @@ export default {
 
 .work
 	font-size .8em
-	font-family 'Roboto', sans-serif
+	font-family 'Raleway', sans-serif
 </style>

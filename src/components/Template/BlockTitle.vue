@@ -30,8 +30,8 @@ export default {
 	display inline-block
 	line-height 48px
 	font-size 30px
-	font-family 'Roboto', sans-serif
-	font-weight 600
+	font-family 'Raleway', sans-serif
+	font-weight 700
 	&.black
 		color #000
 	&.white
