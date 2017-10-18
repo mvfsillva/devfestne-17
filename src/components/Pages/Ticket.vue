@@ -14,7 +14,7 @@
 
 <script>
 import BlockTitle from '../Template/BlockTitle'
-import Ticket from 'assets/img/ticket.png'
+import Ticket from 'assets/img/others/ticket.png'
 export default {
   data() {
     return {
